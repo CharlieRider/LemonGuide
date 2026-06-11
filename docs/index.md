@@ -10,7 +10,7 @@ This site contains:
 
 ## Quick links
 
-- [Guide sections](guide/index.md)
+- [Guide sections](guide/sections/index.md)
 - [Claim table](claim_table.md)
 - [Source catalog](source_catalog.md)
 - [Soil evidence](soil_claims.md)
