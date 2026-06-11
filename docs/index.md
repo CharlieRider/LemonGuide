@@ -10,12 +10,12 @@ This site contains:
 
 ## Quick links
 
-- [Guide sections](guide/sections/)
+- [Guide sections](guide/index.md)
 - [Claim table](claim_table.md)
 - [Source catalog](source_catalog.md)
 - [Soil evidence](soil_claims.md)
 - [Progress notes](progress.md)
-- [Study notes](studies/)
+- [Study notes](studies/index.md)
 
 ## How this site is organized
 
