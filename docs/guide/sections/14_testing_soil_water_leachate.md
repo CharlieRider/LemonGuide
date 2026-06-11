@@ -23,7 +23,7 @@ both cheap, both repeatable on the actual 14″ pot.
 ## 14.1 Pour-Through Test — pH and EC (the workhorse)
 
 The pour-through is the home-pot method the guide's targets are calibrated to (Cavins/NCSU)
-[D134]. Principle: irrigate to container capacity, wait ~30–60 min, pour a known volume of
+[D134](#claim-d134). Principle: irrigate to container capacity, wait ~30–60 min, pour a known volume of
 distilled water on top, collect the leachate, read pH and EC.
 
 | Reading | Target (pour-through) | Action threshold | Claim | Strength |
@@ -34,7 +34,7 @@ distilled water on top, collect the leachate, read pH and EC.
 
 > **Why pour-through, not a cheap soil probe:** the targets in §10 are on this basis; a probe
 > reading a different basis isn't comparable. Combine the EC reading with the **visible salt
-> cue** — a **white crust on the rim/surface** signals accumulation [C126].
+> cue** — a **white crust on the rim/surface** signals accumulation [C126](#claim-c126).
 
 ---
 
@@ -66,13 +66,13 @@ Hard LA tap water is the upstream salt source; test it once and it explains most
 | Mechanism          | Salts **ride the transpiration stream, concentrate as water evaporates**                                     | B066  | Strong   |
 
 > A water report (from the utility or a $ test) gives Cl, Na, B, EC, alkalinity, and hardness —
-> enough to set both the **LF** [B069] and whether to pre-treat coir / lean on gypsum (§6).
+> enough to set both the **LF** [B069](#claim-b069) and whether to pre-treat coir / lean on gypsum (§6).
 
 ---
 
 ## 14.4 Leaf-Tissue Test — the Nutrition Ground Truth (strong)
 
-Leaf analysis is **more reliable than soil/media testing alone** for tree crops [E106], and it
+Leaf analysis is **more reliable than soil/media testing alone** for tree crops [E106](#claim-e106), and it
 is how you separate a real deficiency from a pH-induced lockout.
 
 | Protocol step               | Specification                                                                                             | Claim | Strength |
@@ -107,43 +107,43 @@ Full irrigation-monitoring detail (and the wilt-misread differentials) is §11.
 
 > ### 🪴 Worked example — 19″×14″ west-facing Brentwood / West LA balcony
 > - **Run a pour-through EC + pH monthly** (more often in summer feeding): target **EC <1.5,
->   pH 6.0–6.5** [D134, A040]. EC creeping toward 2.0 → leach harder and dilute feed [D138];
+>   pH 6.0–6.5** [D134](#claim-d134), [A040](#claim-a040). EC creeping toward 2.0 → leach harder and dilute feed [D138](#claim-d138);
 >   pH creeping >6.5–7 → sulfur / Fe-EDDHA (§6/§10). A **white rim crust** is the naked-eye cue
->   [C126].
+>   [C126](#claim-c126).
 > - **Test the tap water once.** Brentwood water is hard/alkaline; getting **Cl, Na, B, EC,
->   alkalinity** sets your **leaching fraction** (likely toward **LF ~0.3** if EC >2.0 [B069])
+>   alkalinity** sets your **leaching fraction** (likely toward **LF ~0.3** if EC >2.0 [B069](#claim-b069))
 >   and confirms why gypsum + coir-buffering matter (§6).
-> - **Verify the leach actually works:** measure **LF = leached ÷ applied** [B070] on a warm
+> - **Verify the leach actually works:** measure **LF = leached ÷ applied** [B070](#claim-b070) on a warm
 >   day — aim 0.15–0.30, higher for this hard water.
-> - **Leaf-test once a year** (mature 4–6-month spring-flush leaves, 20–30 of them [D139, D140])
+> - **Leaf-test once a year** (mature 4–6-month spring-flush leaves, 20–30 of them [D139](#claim-d139), [D140](#claim-d140))
 >   and read against the sufficiency table; **pair with the pour-through pH** so a high-pH
->   lockout isn't misread as a deficiency [D142].
-> - **Heft the pot daily** as the moisture gauge (§11) [B059].
+>   lockout isn't misread as a deficiency [D142](#claim-d142).
+> - **Heft the pot daily** as the moisture gauge (§11) [B059](#claim-b059).
 
 ---
 
 ## Key takeaways
 - **Pour-through pH + EC is the workhorse test** — and the basis the guide's targets are
-  calibrated to (pH 6.0–6.5, EC <1.5 dS/m) [D134, A040, E002].
+  calibrated to (pH 6.0–6.5, EC <1.5 dS/m) [D134](#claim-d134), [A040](#claim-a040), [E002](#claim-e002).
 - **Measure LF = leached ÷ applied** to confirm leaching works; **scale LF to water EC** (up to
-  ~0.3 for hard water) [B070, B069].
-- **Test the tap once** — Cl >152 mg/L and Na ~115 ppm are the thresholds of concern [B064, B065].
+  ~0.3 for hard water) [B070](#claim-b070), [B069](#claim-b069).
+- **Test the tap once** — Cl >152 mg/L and Na ~115 ppm are the thresholds of concern [B064](#claim-b064), [B065](#claim-b065).
 - **Leaf-test annually** (mature 4–6-mo spring-flush leaves, 20–30) against the sufficiency
-  ranges, **paired with media pH** to separate deficiency from lockout [D139, D141, D142].
-- **A white rim crust = salt accumulation** — leach [C126]; **pH is dynamic — re-test** [A043].
+  ranges, **paired with media pH** to separate deficiency from lockout [D139](#claim-d139), [D141](#claim-d141), [D142](#claim-d142).
+- **A white rim crust = salt accumulation** — leach [C126](#claim-c126); **pH is dynamic — re-test** [A043](#claim-a043).
 
 ## Things not to do
 - **Don't compare a soil-extract or generic-probe reading to the guide's targets** — they're on
-  the pour-through basis; convert or use pour-through [D134].
-- **Don't assume pH is stable** — alkaline water and fertilizer move it continuously [A043].
+  the pour-through basis; convert or use pour-through [D134](#claim-d134).
+- **Don't assume pH is stable** — alkaline water and fertilizer move it continuously [A043](#claim-a043).
 - **Don't diagnose a deficiency from leaves alone** at high pH — confirm with media pH (lockout
-  vs true shortage) [D142].
+  vs true shortage) [D142](#claim-d142).
 - **Don't skip a one-time water-quality test** — it explains most EC/pH drift and sets the LF
-  [B064, B069].
-- **Don't ignore a white rim crust** — it's visible salt; leach [C126].
+  [B064](#claim-b064), [B069](#claim-b069).
+- **Don't ignore a white rim crust** — it's visible salt; leach [C126](#claim-c126).
 
 ## Evidence gaps
-- **All protocols are citrus-general extension**, not Lisbon- or this-pot-calibrated [D134, D139].
+- **All protocols are citrus-general extension**, not Lisbon- or this-pot-calibrated [D134](#claim-d134), [D139](#claim-d139).
 - **Normalization carries ±0.3 pH and method-inferred EC confidence** [normalized claims]; a
   direct pour-through on the actual pot supersedes any converted figure.
 - **Sufficiency ranges differ between sources** (e.g., N 2.5–2.7% vs 1.9–2.3%) [D141 vs E105] —

@@ -1,7 +1,7 @@
 # 8. Structural Support and Wind Management
 
 > **Evidence callout.** This is one of the **thinnest-sourced** sections. Lisbon's inherent
-> wind tolerance is **moderate/weak** Lisbon-specific [B052, C063]; the container-specific wind
+> wind tolerance is **moderate/weak** Lisbon-specific [B052](#claim-b052), [C063](#claim-c063); the container-specific wind
 > hazards (tip-over, rocking, leaf-margin desiccation) come from a single **extrapolated**
 > balcony-microclimate note drawing on U. Arizona / Virginia Coop. Extension [D039–D041]. The
 > corpus contains **almost no staking/tie specifics** — that is called out as an evidence gap.
@@ -10,9 +10,9 @@
 
 Good news first: Lisbon is, by cultivar reputation, **relatively tolerant of wind** (and
 heat and neglect) thanks to lemon vigor — it is rated **more wind-tolerant than Eureka**
-[B052, C063]. The plant is not the fragile part. **The pot is.** A vigorous, dense, top-heavy
+[B052](#claim-b052), [C063](#claim-c063). The plant is not the fragile part. **The pot is.** A vigorous, dense, top-heavy
 Lisbon on a small 14-inch base is a **tip-over and root-rocking risk** on an exposed balcony
-[D040], and steady wind is a distinct *desiccation* stressor on top of the heat the same west
+[D040](#claim-d040), and steady wind is a distinct *desiccation* stressor on top of the heat the same west
 wall delivers.
 
 ---
@@ -26,14 +26,14 @@ wall delivers.
 | **Greater temperature swings** | Exposed sites swing hotter/colder than sheltered | Compounds heat (§15) and cold (§15) stress | D040 | Extrapolated |
 
 > ⚠️ **Diagnostic note (carries into §13/§17):** leaf-margin scorch on an exposed balcony may
-> be **wind desiccation, not salt burn or heat** [D039]. Before treating for salt (§14) or
+> be **wind desiccation, not salt burn or heat** [D039](#claim-d039). Before treating for salt (§14) or
 > heat (§15), consider exposure — the fix is a windbreak, not more leaching.
 
 ---
 
 ## 8.2 Mitigation (extrapolated, single source)
 
-The cited wind-mitigation set [D041]:
+The cited wind-mitigation set [D041](#claim-d041):
 
 | Measure | What it does | Claim | Strength |
 |---|---|---|---|
@@ -70,21 +70,21 @@ The evidence corpus provides **no quantitative staking guidance** — no stake h
 material, duration, or "stake low and loose" arboricultural rule. General tree-care practice
 (allow trunk flex, stake low, remove ties after establishment) is **outside the cited
 sources** and is therefore **not asserted here**. What the corpus *does* support is securing
-the **pot** (not necessarily the trunk) against tip-over [D041] and, for a depth-limited
-balcony, **espalier training** as a structural alternative [C097].
+the **pot** (not necessarily the trunk) against tip-over [D041](#claim-d041) and, for a depth-limited
+balcony, **espalier training** as a structural alternative [C097](#claim-c097).
 
 ---
 
 > ### 🪴 Worked example — 19″×14″ west-facing Brentwood / West LA balcony
-> - **The pot, not the plant, is the risk.** Lisbon tolerates the wind [B052, C063]; the
->   top-heavy 14″ pot can rock or tip [D040]. **Secure the pot** to the rail/wall and/or use a
->   heavier mineral mix for a lower center of gravity [D041] — but check the balcony's load
+> - **The pot, not the plant, is the risk.** Lisbon tolerates the wind [B052](#claim-b052), [C063](#claim-c063); the
+>   top-heavy 14″ pot can rock or tip [D040](#claim-d040). **Secure the pot** to the rail/wall and/or use a
+>   heavier mineral mix for a lower center of gravity [D041](#claim-d041) — but check the balcony's load
 >   rating first.
 > - **Use the building wall as a windbreak** — a west-facing wall position both shelters from
->   onshore/Santa-Ana wind and is the natural spot already chosen for sun [D041].
+>   onshore/Santa-Ana wind and is the natural spot already chosen for sun [D041](#claim-d041).
 > - **Expect wind to raise water demand** — budget extra irrigation on windy/Santa-Ana days
->   (§11) [D041]; don't mistake wind-margin scorch for salt burn [D039] (§14).
-> - **If depth is tight, espalier against the rail** [C097] — it eliminates the free-standing
+>   (§11) [D041](#claim-d041); don't mistake wind-margin scorch for salt burn [D039](#claim-d039) (§14).
+> - **If depth is tight, espalier against the rail** [C097](#claim-c097) — it eliminates the free-standing
 >   sail and pairs with the open-interior/dense-exterior pruning of §7.
 > - **Keep the canopy compact but not stripped** (§7) — lower wind leverage *and* sunburn
 >   protection at once.
@@ -92,21 +92,21 @@ balcony, **espalier training** as a structural alternative [C097].
 ---
 
 ## Key takeaways
-- **Lisbon itself is wind-tolerant** (more than Eureka) [B052, C063]; the real hazard is the
-  **top-heavy 14″ pot tipping or rocking** [D040].
+- **Lisbon itself is wind-tolerant** (more than Eureka) [B052](#claim-b052), [C063](#claim-c063); the real hazard is the
+  **top-heavy 14″ pot tipping or rocking** [D040](#claim-d040).
 - **Secure the pot and/or lower its center of gravity**, site it against the wall as a
-  windbreak [D041].
+  windbreak [D041](#claim-d041).
 - **Wind desiccation** can scorch leaf margins independent of soil moisture — don't misdiagnose
-  it as salt/heat [D039].
-- **Wind raises water use** — budget more irrigation on windy days [D041] (§11).
-- **Espalier/flat training** is a structural option for a depth-limited balcony [C097].
+  it as salt/heat [D039](#claim-d039).
+- **Wind raises water use** — budget more irrigation on windy days [D041](#claim-d041) (§11).
+- **Espalier/flat training** is a structural option for a depth-limited balcony [C097](#claim-c097).
 
 ## Things not to do
-- **Don't leave a top-heavy potted Lisbon unsecured** on an exposed balcony [D040, D041].
+- **Don't leave a top-heavy potted Lisbon unsecured** on an exposed balcony [D040](#claim-d040), [D041](#claim-d041).
 - **Don't over-thin the canopy to "reduce wind"** — it removes the sunburn shield (§7, §15).
 - **Don't block the drainage holes** when securing/seating the pot — keep it elevated ≥½″
   (§3).
-- **Don't assume margin scorch is salt** before ruling out wind exposure [D039].
+- **Don't assume margin scorch is salt** before ruling out wind exposure [D039](#claim-d039).
 - **Don't overload the balcony** with a heavy saturated mineral mix without checking its load
   rating.
 
@@ -115,7 +115,7 @@ balcony, **espalier training** as a structural alternative [C097].
   timing are not covered; general arboricultural rules are deliberately not asserted here.
 - **All container wind hazards are extrapolated** from a single balcony-microclimate note
   [D039–D041], not from a citrus wind trial.
-- **Lisbon's wind tolerance is reputational** (cultivar description) [B052, C063], not
+- **Lisbon's wind tolerance is reputational** (cultivar description) [B052](#claim-b052), [C063](#claim-c063), not
   quantified (no wind-speed thresholds).
 - **No data on how much wind raises a 14″ Lisbon pot's water use** — the "account for higher
-  water use" instruction [D041] is unquantified (see §11).
+  water use" instruction [D041](#claim-d041) is unquantified (see §11).

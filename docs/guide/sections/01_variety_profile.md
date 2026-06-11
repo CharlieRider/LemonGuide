@@ -4,7 +4,7 @@
 > University of California Riverside Citrus Variety Collection description of the
 > Frost nucellar strain (CRC 3176) and its clonal-strain comparison [D019, D023, D025,
 > D022] anchor the identity, growth habit, and fruit traits, with cold-hardiness from
-> UC IPM/CCPP context [B049]. Origin/history and most consumer-facing flavor notes are
+> UC IPM/CCPP context [B049](#claim-b049). Origin/history and most consumer-facing flavor notes are
 > **weak** (specialty-produce and horticulture trade sources) and are flagged inline.
 > Nothing in this section is extrapolated from non-citrus crops. Numeric targets for
 > *fruit quality at harvest*, *bloom timing*, and *yield* are the home of §12 and §9
@@ -12,7 +12,7 @@
 
 Lisbon (*Citrus limon* (L.) Osbeck, 'Lisbon') is a true acid lemon and, by the UC
 Riverside description, **the most vigorous lemon grown in California** and the most
-resistant to adverse climate of the common lemons [D023, E026]. For a west-facing,
+resistant to adverse climate of the common lemons [D023](#claim-d023), [E026](#claim-e026). For a west-facing,
 marine-influenced Los Angeles balcony its signature traits cut both ways: the same
 vigor and heat/wind/neglect tolerance that make it forgiving outdoors also make it the
 cultivar most determined to outgrow a 14-inch pot, so the variety choice is inseparable
@@ -40,9 +40,9 @@ from the rootstock and pruning decisions in §2 and §7.
 | Prior Lisbon (CRC 3505) | Another nucellar selection | — | D021 | Strong |
 
 All Lisbon strains share **acidic, low-seeded fruit and a winter main crop**; they
-differ mainly in **thorn load and vigor** [D022]. California clones are documented to
+differ mainly in **thorn load and vigor** [D022](#claim-d022). California clones are documented to
 vary in vigor, size, thorn abundance, branching, and foliage density, and some are more
-compact and less thorny [E030] — favor a compact, low-thorn clone such as Yen Ben for
+compact and less thorny [E030](#claim-e030) — favor a compact, low-thorn clone such as Yen Ben for
 the balcony.
 
 ---
@@ -59,12 +59,12 @@ the balcony.
 | Thorn over time | Decreases as the tree matures and on fruiting (non-juvenile) wood | C059 | Weak |
 | Fruit-bearing position | Fruit borne largely **inside** the canopy (not on the periphery as in Eureka) | E028 | Weak |
 
-**Why this matters for a pot.** The in-ground mature size [E027] is the number that
+**Why this matters for a pot.** The in-ground mature size [E027](#claim-e027) is the number that
 forces a dwarfing rootstock (§2) and a deliberate pruning program (§7): on its own roots
 or a vigorous rootstock, Lisbon will not self-limit to a 14-inch pot. Because fruit sits
-inside a dense canopy [E028], the pruning goal is an *open* canopy for light penetration
+inside a dense canopy [E028](#claim-e028), the pruning goal is an *open* canopy for light penetration
 and reachable harvest, not just size control. Thorns concentrate on the very growth a
-balcony grower handles most (young flushes and water sprouts) [E029]; removing those
+balcony grower handles most (young flushes and water sprouts) [E029](#claim-e029); removing those
 flushes early serves size, light, and thorn management at once.
 
 ---
@@ -98,14 +98,14 @@ only the cultivar identity. Bloom flushing and fruit set are the home of **§9**
 | Light | Citrus needs **≥6 h sun/day**; **6–8 h** direct sun for best fruiting | A131, E020 | Strong / Weak |
 
 > ⚠️ **Apparent conflict, reconciled.** Lisbon is described both as "most cold-tolerant
-> of the lemons" [E017] and as "among the most cold-tender citrus" [B049]. These are not
+> of the lemons" [E017](#claim-e017) and as "among the most cold-tender citrus" [B049](#claim-b049). These are not
 > contradictory: lemons as a class are the most frost-sensitive common citrus, and Lisbon
 > sits at the hardy end *within lemons*. Operationally, treat the **mid-to-high 20s °F kill
-> threshold [B049]** as the binding number and plan frost protection (§15) around it; do
+> threshold [B049](#claim-b049)** as the binding number and plan frost protection (§15) around it; do
 > not let the "cold-tolerant" framing [E017, *weak*] lull you into skipping protection.
 
 **Important caveat carried from the corpus:** Lisbon's toughness is *abiotic* (heat,
-wind, neglect) — it is **not disease immunity** [B052]. Disease and pest susceptibility
+wind, neglect) — it is **not disease immunity** [B052](#claim-b052). Disease and pest susceptibility
 are the home of §13/§16.
 
 ---
@@ -118,8 +118,8 @@ are the home of §13/§16.
 | PGRs | Growth regulators (e.g., GA₃) are *optional, not necessary* for fruit set | A108 | Moderate |
 | Flowering pattern | Flowers **multiple times per year**; responds to both low-temperature and water-stress induction | B094 | Strong |
 
-Self-fertility plus parthenocarpy [A108] is the single most balcony-friendly trait in the
-profile: one isolated pot will crop. Multiple annual flushes [B094] mean fruit and flowers
+Self-fertility plus parthenocarpy [A108](#claim-a108) is the single most balcony-friendly trait in the
+profile: one isolated pot will crop. Multiple annual flushes [B094](#claim-b094) mean fruit and flowers
 co-occur and that watering rhythm can nudge bloom — developed in §9 and §11.
 
 ---
@@ -142,59 +142,59 @@ target.
 | Villafranca | Similar to Lisbon/Eureka | Fewer thorns | Similar | — | E035 |
 | Bearss | — | — | Larger, juicier, high rind-oil, few seeds | — | E035 |
 
-Lisbon and Eureka fruit are nearly identical [E034]; the deciding differences for a
+Lisbon and Eureka fruit are nearly identical [E034](#claim-e034); the deciding differences for a
 balcony are Lisbon's greater vigor (a liability in a pot, managed by rootstock + pruning)
-and its greater stress tolerance (an asset on an exposed west wall) [C060, C063].
+and its greater stress tolerance (an asset on an exposed west wall) [C060](#claim-c060), [C063](#claim-c063).
 
 ---
 
 > ### 🪴 Worked example — 19″×14″ west-facing Brentwood / West LA balcony
 > - **Variety fit is strong.** Brentwood sits in zone ~10b–11a, inside Lisbon's range
->   [E117]; the marine layer and west-wall heat are exactly the abiotic stresses Lisbon
->   tolerates best [B052, C063]. A west exposure clears the ≥6 h sun bar [A131] and
->   typically the 6–8 h "best fruiting" bar [E020].
+>   [E117](#claim-e117); the marine layer and west-wall heat are exactly the abiotic stresses Lisbon
+>   tolerates best [B052](#claim-b052), [C063](#claim-c063). A west exposure clears the ≥6 h sun bar [A131](#claim-a131) and
+>   typically the 6–8 h "best fruiting" bar [E020](#claim-e020).
 > - **Pick the clone deliberately:** specify **Yen Ben (CRC 4067)** if available — more
 >   compact, less thorny, thinner-skinned fruit, the best-documented small-container
->   Lisbon [D020]. Default Frost nucellar (CRC 3176) is the most vigorous and the hardest
->   to keep in a 14″ pot [D019, D023].
-> - **The one number to design around:** mid-to-high 20s °F kills foliage/wood [B049].
+>   Lisbon [D020](#claim-d020). Default Frost nucellar (CRC 3176) is the most vigorous and the hardest
+>   to keep in a 14″ pot [D019](#claim-d019), [D023](#claim-d023).
+> - **The one number to design around:** mid-to-high 20s °F kills foliage/wood [B049](#claim-b049).
 >   West-LA hard frosts are rare but not impossible; the pot makes the root zone *more*
 >   exposed than ground, so frost protection (§15) is non-optional planning, not a
 >   contingency.
-> - **Self-fertile + parthenocarpic** [A108]: one pot crops with no second tree.
+> - **Self-fertile + parthenocarpic** [A108](#claim-a108): one pot crops with no second tree.
 
 ---
 
 ## Key takeaways
-- Lisbon is the **most vigorous lemon in California** [D023]; in a pot that vigor is the
+- Lisbon is the **most vigorous lemon in California** [D023](#claim-d023); in a pot that vigor is the
   central management problem, handled by dwarfing rootstock (§2) and pruning (§7).
 - **Strain selection is a free lever:** Yen Ben (CRC 4067) is more compact and less
-  thorny than the default Frost nucellar strain [D020, D019] — specify it for a small pot.
-- **Self-fertile and parthenocarpic** [A108] — a single isolated balcony tree will fruit.
+  thorny than the default Frost nucellar strain [D020](#claim-d020), [D019](#claim-d019) — specify it for a small pot.
+- **Self-fertile and parthenocarpic** [A108](#claim-a108) — a single isolated balcony tree will fruit.
 - Cold is the binding climate risk: plan around the **mid-to-high 20s °F kill point**
-  [B049], not the reassuring "cold-tolerant lemon" framing [E017].
-- Fruit sits **inside** a dense, thorny canopy [E028, E029]; prune for an open canopy to
+  [B049](#claim-b049), not the reassuring "cold-tolerant lemon" framing [E017](#claim-e017).
+- Fruit sits **inside** a dense, thorny canopy [E028](#claim-e028), [E029](#claim-e029); prune for an open canopy to
   get light in and fruit out.
 
 ## Things not to do
 - **Don't grow a full-vigor Lisbon on a vigorous rootstock in a 14″ pot** and expect it
-  to behave — its in-ground size is 15–20 ft [E027].
+  to behave — its in-ground size is 15–20 ft [E027](#claim-e027).
 - **Don't skip frost protection** on the assumption Lisbon is "cold-hardy"; it is
-  cold-*tender* among citrus [B049].
-- **Don't assume abiotic toughness means disease resistance** — it does not [B052]
+  cold-*tender* among citrus [B049](#claim-b049).
+- **Don't assume abiotic toughness means disease resistance** — it does not [B052](#claim-b052)
   (see §13).
 - **Don't buy an unspecified "Lisbon"** when a compact, low-thorn clone is available
-  [E030, D020].
+  [E030](#claim-e030), [D020](#claim-d020).
 
 ## Evidence gaps
 - **No container-grown size or yield data for Lisbon.** All size figures (15–20 ft)
-  are in-ground [E027]; the pot-restricted mature size on a dwarfing rootstock is not
+  are in-ground [E027](#claim-e027); the pot-restricted mature size on a dwarfing rootstock is not
   quantified in the corpus — it is inferred in §2/§7.
 - **Flavor, juice-yield, and "thinner peel than Eureka" claims are weak** (consumer
-  horticulture sources) [C044, C054]; no measured Brix/acid/juice-content figures for
+  horticulture sources) [C044](#claim-c044), [C054](#claim-c054); no measured Brix/acid/juice-content figures for
   Lisbon specifically appear here (see §12 for what harvest data does exist).
 - **Strain-by-strain container performance is undocumented.** Yen Ben's container
-  advantage [D020] is inferred from its compact/low-thorn description, not from a pot
+  advantage [D020](#claim-d020) is inferred from its compact/low-thorn description, not from a pot
   trial.
-- **Origin and introduction dates are weakly sourced** [C051, C052] and historical, not
+- **Origin and introduction dates are weakly sourced** [C051](#claim-c051), [C052](#claim-c052) and historical, not
   production-relevant.

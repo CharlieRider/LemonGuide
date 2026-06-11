@@ -1,18 +1,18 @@
 # 9. Flowering, Pollination, and Fruit Set
 
 > **Evidence callout.** This section is **strong** and unusually **Lisbon-specific**: the
-> self-fertility and parthenocarpy figures are peer-reviewed (ISHS Acta Hort.) [C040, C041],
-> induction thresholds are from extension and flowering reviews [B041, B091, B092], and the
-> girdling and pollinator data are peer-reviewed [E124, C043]. This section is the **home** for
+> self-fertility and parthenocarpy figures are peer-reviewed (ISHS Acta Hort.) [C040](#claim-c040), [C041](#claim-c041),
+> induction thresholds are from extension and flowering reviews [B041](#claim-b041), [B091](#claim-b091), [B092](#claim-b092), and the
+> girdling and pollinator data are peer-reviewed [E124](#claim-e124), [C043](#claim-c043). This section is the **home** for
 > the *mechanisms and tactics* of bloom and set; the *seasonal timeline* and natural drop waves
 > are §4 (restated here), irrigation at bloom is §11, nutrition is §10, and heat/cold protection
 > of flowers is §15.
 
 The headline for a balcony grower is the best news in the whole guide: **Lisbon is self-fertile
 and the most parthenocarpic of the common lemons (~20% fruit set with no pollination at all)**
-[C040, C041, B148]. A single isolated pot will crop, and it can set *some* fruit even when heat
+[C040](#claim-c040), [C041](#claim-c041), [B148](#claim-b148). A single isolated pot will crop, and it can set *some* fruit even when heat
 wrecks the pollen. The binding constraint on set is therefore **not pollination — it is
-carbohydrate** [C037]: fewer than **2% of flowers** ever become harvestable fruit [B045, C037],
+carbohydrate** [C037](#claim-c037): fewer than **2% of flowers** ever become harvestable fruit [B045](#claim-b045), [C037](#claim-c037),
 and the survivors are decided by carbohydrate competition among fruitlets, not by pollen.
 
 ---
@@ -27,16 +27,16 @@ and the survivors are decided by carbohydrate competition among fruitlets, not b
 | Bee access | Open (insect-accessible) flowers set **~44% more** fruit than closed | Bees boost yield, not required | C043 | Strong |
 | Seeds | Near-seedless fruit from self/parthenocarpic set | No pollinizer needed for usable fruit | C134 | Weak |
 
-> **So what?** Cross-pollination and a second tree buy almost nothing here [C042]; **encouraging
-> bee access at bloom buys ~44%** [C043]. Parthenocarpy is the insurance policy against a
-> bloom-time heat wave that damages pollen [B097, B148].
+> **So what?** Cross-pollination and a second tree buy almost nothing here [C042](#claim-c042); **encouraging
+> bee access at bloom buys ~44%** [C043](#claim-c043). Parthenocarpy is the insurance policy against a
+> bloom-time heat wave that damages pollen [B097](#claim-b097), [B148](#claim-b148).
 
 ---
 
 ## 9.2 Floral Induction (summary; timeline home is §4)
 
 Induction *precedes* visible bloom by **2–3 months** and is triggered by cold **or** drought
-[A010, B093]:
+[A010](#claim-a010), [B093](#claim-b093):
 
 | Trigger | Threshold | Claim | Strength |
 |---|---|---|---|
@@ -47,10 +47,10 @@ Induction *precedes* visible bloom by **2–3 months** and is triggered by cold 
 | **Lisbon carbohydrate note** | Starch/glucose showed **no consistent correlation** with flowering intensity *in Lisbon* | B096 | Strong |
 
 > ⚠️ **Do not force bloom by drying a 14″ pot.** The drought-induction thresholds are field-scale
-> (leaf Ψ −2 MPa for weeks) [B092]; a shallow pot's tiny reservoir hits damaging stress in 1–2
+> (leaf Ψ −2 MPa for weeks) [B092](#claim-b092); a shallow pot's tiny reservoir hits damaging stress in 1–2
 > days, and stress *at bloom* raises flower/fruit drop and cuts yield [B055/§4, A061]. The mild
-> West-LA climate supplies cold induction [B041]; rely on the normal watering rhythm, not
-> deliberate drought [A013] (§11).
+> West-LA climate supplies cold induction [B041](#claim-b041); rely on the normal watering rhythm, not
+> deliberate drought [A013](#claim-a013) (§11).
 
 ---
 
@@ -80,14 +80,14 @@ protect carbohydrate supply and avoid stress at bloom — covered next.
 | GA₃ + 2,4-D fall sprays | Cut fruit drop ~25% | PGR program | A106 | Strong |
 
 > ⚠️ **PGR timing flips the effect — and PGRs are optional for Lisbon.** GA₃ *improves* set when
-> sprayed at full bloom [A104] but **suppresses flowering when applied during the inductive
-> period** [A107, B047]; 25 mg/L GA₃ cut sweet-orange flowering 45–76% [B095]. If maximizing
-> bloom, **avoid GA-containing products in fall/winter** [B047]. Because Lisbon is self-fertile
+> sprayed at full bloom [A104](#claim-a104) but **suppresses flowering when applied during the inductive
+> period** [A107](#claim-a107), [B047](#claim-b047); 25 mg/L GA₃ cut sweet-orange flowering 45–76% [B095](#claim-b095). If maximizing
+> bloom, **avoid GA-containing products in fall/winter** [B047](#claim-b047). Because Lisbon is self-fertile
 > and parthenocarpic, **PGRs are optional, not necessary** [A108/§1] — start with the cultural
 > levers (no stress, bees, nutrition), then girdling, before reaching for hormones.
 
 > ⚠️ **Girdling caveat:** girdling is a real wound on a small tree — peer-reviewed for orchards
-> [E124], not validated on a container Lisbon. Treat the +73–400% as field figures; use it
+> [E124](#claim-e124), not validated on a container Lisbon. Treat the +73–400% as field figures; use it
 > cautiously and only after the safe levers.
 
 ---
@@ -108,52 +108,51 @@ protect carbohydrate supply and avoid stress at bloom — covered next.
 
 Heavy bloom and heavy drop are normal and self-thinning: post-bloom drop, **"June drop" ~1–2
 months after bloom**, and pre-harvest drop thin the crop to canopy capacity (§4). With <2%
-conversion [B045], do not mistake normal drop for failure.
+conversion [B045](#claim-b045), do not mistake normal drop for failure.
 
 ---
 
 > ### 🪴 Worked example — 19″×14″ west-facing Brentwood / West LA balcony
-> - **One pot is enough.** Lisbon self-fertility + ~20% parthenocarpy [C040, C041] means no
->   second tree and a crop even if a heat wave damages pollen [B148, B097].
-> - **The mild marine climate supplies cold induction** (winter min near 15°C) [B041, B091] — you
+> - **One pot is enough.** Lisbon self-fertility + ~20% parthenocarpy [C040](#claim-c040), [C041](#claim-c041) means no
+>   second tree and a crop even if a heat wave damages pollen [B148](#claim-b148), [B097](#claim-b097).
+> - **The mild marine climate supplies cold induction** (winter min near 15°C) [B041](#claim-b041), [B091](#claim-b091) — you
 >   don't need to drought-force bloom, and you *shouldn't* in a 14″ pot [B092 caveat].
 > - **Protect set, don't force it:** keep water and N **steady through bloom and the fruit-sizing
->   window** [A061, E128] — the #1 controllable cause of drop is stress at bloom (§11, §10).
-> - **Let the bees in** for ~44% more set [C043] — don't spray insecticide at bloom (§16).
-> - **Skip PGRs by default** [A108]; if pushing yield, **girdle at petal fall** cautiously
->   [E124] before reaching for GA₃ — and never use GA products in fall/winter or you'll suppress
->   next bloom [B047].
-> - **Expect heavy drop** (<2% set [B045]) and a **few dozen fruit/yr** at maturity (§4, §12).
+>   window** [A061](#claim-a061), [E128](#claim-e128) — the #1 controllable cause of drop is stress at bloom (§11, §10).
+> - **Let the bees in** for ~44% more set [C043](#claim-c043) — don't spray insecticide at bloom (§16).
+> - **Skip PGRs by default** [A108](#claim-a108); if pushing yield, **girdle at petal fall** cautiously
+>   [E124](#claim-e124) before reaching for GA₃ — and never use GA products in fall/winter or you'll suppress
+>   next bloom [B047](#claim-b047).
+> - **Expect heavy drop** (<2% set [B045](#claim-b045)) and a **few dozen fruit/yr** at maturity (§4, §12).
 
 ---
 
 ## Key takeaways
-- **Lisbon is self-fertile and the most parthenocarpic lemon (~20% set, no pollination)** [C040,
-  C041] — a lone pot crops, and parthenocarpy insures against heat-damaged pollen [B148, B097].
-- **Set is carbohydrate-limited, not pollination-limited** — <2% of flowers fruit [C037, B045].
-- **The mild climate supplies cold induction** (15°C ≥1.5 mo) [B091]; **do not drought-force
+- **Lisbon is self-fertile and the most parthenocarpic lemon (~20% set, no pollination)** [C040](#claim-c040), [C041](#claim-c041) — a lone pot crops, and parthenocarpy insures against heat-damaged pollen [B148](#claim-b148), [B097](#claim-b097).
+- **Set is carbohydrate-limited, not pollination-limited** — <2% of flowers fruit [C037](#claim-c037), [B045](#claim-b045).
+- **The mild climate supplies cold induction** (15°C ≥1.5 mo) [B091](#claim-b091); **do not drought-force
   bloom** in a shallow pot [B092 caveat].
 - **Best levers, safest first:** no stress at bloom → balanced nutrition → **bee access (+44%)**
-  → girdling (+73–400%, cautiously) [E128, C043, E124].
+  → girdling (+73–400%, cautiously) [E128](#claim-e128), [C043](#claim-c043), [E124](#claim-e124).
 - **PGRs are optional and timing-sensitive** — GA₃ helps at full bloom but suppresses flowering
-  in the inductive period; avoid GA products in fall/winter [A104, A107, B047].
+  in the inductive period; avoid GA products in fall/winter [A104](#claim-a104), [A107](#claim-a107), [B047](#claim-b047).
 
 ## Things not to do
-- **Don't add a second tree for pollination** — cross-pollination buys almost nothing [C042].
+- **Don't add a second tree for pollination** — cross-pollination buys almost nothing [C042](#claim-c042).
 - **Don't drought-stress the pot to force bloom** — field thresholds don't transfer; bloom-time
-  stress drops fruit [B092, A061].
-- **Don't spray insecticide at bloom** — it costs the ~44% bee bonus [C043] (§16).
+  stress drops fruit [B092](#claim-b092), [A061](#claim-a061).
+- **Don't spray insecticide at bloom** — it costs the ~44% bee bonus [C043](#claim-c043) (§16).
 - **Don't use GA-containing products in fall/winter** if you want bloom — they suppress induction
-  [B047, B095].
-- **Don't panic at heavy drop** — <2% set is normal [B045] (§4).
+  [B047](#claim-b047), [B095](#claim-b095).
+- **Don't panic at heavy drop** — <2% set is normal [B045](#claim-b045) (§4).
 
 ## Evidence gaps
-- **The ~20% parthenocarpy figure is partly weakly/indirectly cited** [B148] though corroborated
-  by peer-reviewed ISHS [C041]; exact container-Lisbon set rates are unmeasured.
-- **Girdling yield gains (+73–400%) are orchard field data** [E125], untested on a container
+- **The ~20% parthenocarpy figure is partly weakly/indirectly cited** [B148](#claim-b148) though corroborated
+  by peer-reviewed ISHS [C041](#claim-c041); exact container-Lisbon set rates are unmeasured.
+- **Girdling yield gains (+73–400%) are orchard field data** [E125](#claim-e125), untested on a container
   Lisbon — extrapolation flagged.
-- **Induction thresholds are general citrus** [B091, B092]; how the specific West-LA marine
+- **Induction thresholds are general citrus** [B091](#claim-b091), [B092](#claim-b092); how the specific West-LA marine
   microclimate drives Lisbon induction is uncharacterized, and **Lisbon shows no consistent
-  carbohydrate–flowering correlation** [B096], complicating prediction.
-- **No container-Lisbon pollinator or PGR trial** — bee +44% [C043] and GA₃ effects [A104] are
+  carbohydrate–flowering correlation** [B096](#claim-b096), complicating prediction.
+- **No container-Lisbon pollinator or PGR trial** — bee +44% [C043](#claim-c043) and GA₃ effects [A104](#claim-a104) are
   general lemon/citrus.
