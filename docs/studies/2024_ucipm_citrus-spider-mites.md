@@ -1,7 +1,7 @@
 ---
 title: "Spider Mites on Citrus (citrus red mite and twospotted spider mite)"
 year: 2024
-source: UC Statewide IPM Program — Pest Management Guidelines: Citrus
+source: "UC Statewide IPM Program — Pest Management Guidelines: Citrus"
 url: https://ipm.ucanr.edu/agriculture/citrus/twospotted-spider-mite/
 pdf_url: https://ipm.ucanr.edu/agriculture/citrus/
 pdf_status: needs-browser
