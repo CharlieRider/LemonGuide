@@ -7,8 +7,8 @@ layout: page
 > **Evidence callout.** Component *behavior* (bark stability, peat/coir water-holding and pH,
 > wetting agents, pH amendment rates) is **strong** container science [A031, A091, A092, A041,
 > A042]. The specific *recipes*, however, are **moderate-to-weak** nursery/consumer formulas
-> [C009](#claim-c009), [B088](#claim-b088), [D050](#claim-d050), [D107](#claim-d107) that converge on the same bark-dominant structure rather than one
-> validated mix. The one citrus-specific substrate trial is the 2026 biochar study [E696](#claim-e696).
+> [C009](../../claim_table.html#claim-c009), [B088](../../claim_table.html#claim-b088), [D050](../../claim_table.html#claim-d050), [D107](../../claim_table.html#claim-d107) that converge on the same bark-dominant structure rather than one
+> validated mix. The one citrus-specific substrate trial is the 2026 biochar study [E696](../../claim_table.html#claim-e696).
 > This section is the **home** for the media recipe, amendments, mulch, and topdress; the
 > *targets and physics* those serve (AFP ~15–20%, no drainage layer, perched water) are §3;
 > pH/EC *targets* and the nutrition program are §10; salt flushing is §14.
@@ -49,18 +49,18 @@ aggregate** — pick one and adjust:
 | **40/30/20/10** | 40% pine bark : 30% potting soil/coir : 20% perlite/pumice : 10% compost/castings | Growfruitly | D107 | Weak |
 
 > **Practical synthesis (not a new number — a selection).** Use a **bark-dominant mix
-> (~50–60% coarse aged pine/fir bark)** [A069](#claim-a069) with **~20–30% buffered coir** [B138](#claim-b138), [A095](#claim-a095),
-> **~20% pumice** for permanent aeration [D564](#claim-d564), and **≤10% compost/castings** for CEC [D109](#claim-d109).
+> (~50–60% coarse aged pine/fir bark)** [A069](../../claim_table.html#claim-a069) with **~20–30% buffered coir** [B138](../../claim_table.html#claim-b138), [A095](../../claim_table.html#claim-a095),
+> **~20% pumice** for permanent aeration [D564](../../claim_table.html#claim-d564), and **≤10% compost/castings** for CEC [D109](../../claim_table.html#claim-d109).
 > This matches the convergent recipes above while satisfying the §3 physics target (push AFP
 > toward ~15–20% in a shallow pot). Substitute **calcined clay or 20% biochar** for part of
-> the aggregate if balcony weight and pH are managed [E057](#claim-e057), [E696](#claim-e696).
+> the aggregate if balcony weight and pH are managed [E057](../../claim_table.html#claim-e057), [E696](../../claim_table.html#claim-e696).
 
 **Worked porosity reference (for sanity-checking a mix):** UC Mix 11%/62%/73%, peat+perlite
 20%/73%/93%, peat+vermiculite 13%/81%/94% (air/water/total) — all clear the ≥10% air / ≥40%
-water minimum [A112](#claim-a112) (full physics: §3).
+water minimum [A112](../../claim_table.html#claim-a112) (full physics: §3).
 
 **Avoid:** standard indoor potting mixes with chemical wetting agents that hold water around
-roots too long [C010](#claim-c010); garden soil; cactus/palm mixes drain better than standard potting mix
+roots too long [C010](../../claim_table.html#claim-c010); garden soil; cactus/palm mixes drain better than standard potting mix
 but are not a complete substitute [A128/§3].
 
 ---
@@ -68,7 +68,7 @@ but are not a complete substitute [A128/§3].
 ## 6.3 Coir Pre-Treatment (do this or pay for it later)
 
 Raw coir's exchange sites are loaded with **Na⁺/K⁺ and depleted in Ca²⁺/Mg²⁺**; unbuffered,
-it **dumps Na/K and locks out Ca/Mg** [B135](#claim-b135) — a real risk given hard LA water.
+it **dumps Na/K and locks out Ca/Mg** [B135](../../claim_table.html#claim-b135) — a real risk given hard LA water.
 
 | Step | Specification | Claim | Strength |
 |---|---|---|---|
@@ -83,8 +83,8 @@ it **dumps Na/K and locks out Ca/Mg** [B135](#claim-b135) — a real risk given 
 
 A west-wall pot *will* dry hard; the mix must come back on one watering:
 - At 25% moisture, **peat with no wetting agent failed to reach container capacity even after
-  10 irrigations** [A052](#claim-a052); medium/high wetting agent restored it in ~3 events [A052](#claim-a052).
-- **Perlite rewet fully in one event**; coir rewets far more easily than dried peat [A054](#claim-a054), [A093](#claim-a093).
+  10 irrigations** [A052](../../claim_table.html#claim-a052); medium/high wetting agent restored it in ~3 events [A052](../../claim_table.html#claim-a052).
+- **Perlite rewet fully in one event**; coir rewets far more easily than dried peat [A054](../../claim_table.html#claim-a054), [A093](../../claim_table.html#claim-a093).
 
 **Implication:** favor a bark/pumice/coir mix (rewets well); if peat is used, it **must**
 carry a wetting agent. (Rewetting tactics under heat: §11/§15.)
@@ -103,9 +103,9 @@ carry a wetting agent. (Rewetting tactics under heat: §11/§15.)
 | Mg + raise pH | Dolomitic lime | Mg while raising pH | D049 | Moderate |
 
 > ⚠️ **Why this matters for hard LA water:** Ca/Mg are easily leached from free-draining pots
-> and specifically depleted by unbuffered coir [D489](#claim-d489). But alkaline tap water pushes pH *up*,
+> and specifically depleted by unbuffered coir [D489](../../claim_table.html#claim-d489). But alkaline tap water pushes pH *up*,
 > risking Fe/Mn/Zn lockout — so prefer **gypsum (Ca/S, no pH rise)** over lime when pH is
-> already ≥6.0–6.5 [C029](#claim-c029). pH targets and the nutrition program are the home of §10.
+> already ≥6.0–6.5 [C029](../../claim_table.html#claim-c029). pH targets and the nutrition program are the home of §10.
 
 ---
 
@@ -126,7 +126,7 @@ Mulch also serves heat protection (§15) and irrigation efficiency (§11).
 ## 6.7 Topdress and Refresh Systems (weak but consistent)
 
 Container mix inevitably degrades — organic matter is consumed, **salts build up**, the
-surface compacts where water enters [E052](#claim-e052).
+surface compacts where water enters [E052](../../claim_table.html#claim-e052).
 
 | System | Method | Cadence | Limit | Claims | Strength |
 |---|---|---|---|---|---|
@@ -136,65 +136,65 @@ surface compacts where water enters [E052](#claim-e052).
 | **Full (bare-root) replacement** | Reset all media | Only for degraded/salty mix or disease | Stressful | C110 | Weak |
 
 > ⚠️ **Topdressing is not salt management.** It refreshes the surface and trickles nutrients
-> but **cannot flush accumulated salt or repair the perched-zone fines** [E054](#claim-e054), [C111](#claim-c111); pair it
+> but **cannot flush accumulated salt or repair the perched-zone fines** [E054](../../claim_table.html#claim-e054), [C111](../../claim_table.html#claim-c111); pair it
 > with deep leaching (§14) and the periodic deeper media replacement at root-prune (§5).
 
 **AMF inoculant:** citrus has few, short root hairs and **relies heavily on mycorrhizae**
-[B027](#claim-b027); AMF improve uptake of the less-mobile, lockout-prone nutrients (P, Zn, Cu) [B028](#claim-b028),
-boost growth especially under moderate water stress [B029](#claim-b029), and can suppress Phytophthora
-[B030](#claim-b030) — add at potting/refresh. **Caveat:** high soluble-P fertilizer suppresses AMF
-colonization [B031](#claim-b031), so don't over-apply soluble P if relying on it.
+[B027](../../claim_table.html#claim-b027); AMF improve uptake of the less-mobile, lockout-prone nutrients (P, Zn, Cu) [B028](../../claim_table.html#claim-b028),
+boost growth especially under moderate water stress [B029](../../claim_table.html#claim-b029), and can suppress Phytophthora
+[B030](../../claim_table.html#claim-b030) — add at potting/refresh. **Caveat:** high soluble-P fertilizer suppresses AMF
+colonization [B031](../../claim_table.html#claim-b031), so don't over-apply soluble P if relying on it.
 
 ---
 
 > ### 🪴 Worked example — 19″×14″ west-facing Brentwood / West LA balcony
 > - **Mix:** ~50–60% coarse aged pine/fir bark + ~20–30% **buffered** coir + ~20% pumice +
->   ≤10% compost [A069](#claim-a069), [B138](#claim-b138), [D564](#claim-d564), [D109](#claim-d109) — bark-dominant for multi-year drainage, coir for
->   easy rewetting on a fast-drying wall [A093](#claim-a093), pumice (not perlite) so aeration doesn't
->   float away [D565](#claim-d565). Optionally swap part of the aggregate for **20% biochar** [E696](#claim-e696)
->   (watch the pH rise [E110](#claim-e110)).
-> - **Buffer the coir** (Ca/Mg soak, rinse) before planting [B136](#claim-b136), [B138](#claim-b138) — non-negotiable with
+>   ≤10% compost [A069](../../claim_table.html#claim-a069), [B138](../../claim_table.html#claim-b138), [D564](../../claim_table.html#claim-d564), [D109](../../claim_table.html#claim-d109) — bark-dominant for multi-year drainage, coir for
+>   easy rewetting on a fast-drying wall [A093](../../claim_table.html#claim-a093), pumice (not perlite) so aeration doesn't
+>   float away [D565](../../claim_table.html#claim-d565). Optionally swap part of the aggregate for **20% biochar** [E696](../../claim_table.html#claim-e696)
+>   (watch the pH rise [E110](../../claim_table.html#claim-e110)).
+> - **Buffer the coir** (Ca/Mg soak, rinse) before planting [B136](../../claim_table.html#claim-b136), [B138](../../claim_table.html#claim-b138) — non-negotiable with
 >   hard LA water and a salt-sensitive Flying Dragon rootstock (§2).
 > - **pH lever:** alkaline tap water drifts pH up; keep Ca up with **gypsum** (no pH rise)
->   rather than lime [C029](#claim-c029); if pH climbs, **~1 tsp 90% sulfur per gallon ≈ −1 unit** [A041](#claim-a041)
+>   rather than lime [C029](../../claim_table.html#claim-c029); if pH climbs, **~1 tsp 90% sulfur per gallon ≈ −1 unit** [A041](../../claim_table.html#claim-a041)
 >   (targets: §10/§14).
-> - **Mulch 1–1.5 in** coarse bark, off the trunk [C089](#claim-c089), [C086](#claim-c086) — cuts evaporation ~33% [C087](#claim-c087)
+> - **Mulch 1–1.5 in** coarse bark, off the trunk [C089](../../claim_table.html#claim-c089), [C086](../../claim_table.html#claim-c086) — cuts evaporation ~33% [C087](../../claim_table.html#claim-c087)
 >   on the hot wall (§15).
 > - **Refresh cadence:** topdress between cycles, but do the real work — partial media
 >   replacement + **deep salt flush** — at the 2–3-yr root-prune [C109, §5, §14]; topdress
->   alone won't remove LA-water salt [E054](#claim-e054).
+>   alone won't remove LA-water salt [E054](../../claim_table.html#claim-e054).
 
 ---
 
 ## Key takeaways
 - Use a **bark-dominant mix** (~50–60% coarse aged pine/fir bark) with a **minority** of
-  buffered coir, **pumice** aggregate, and **≤10% compost** [A069](#claim-a069), [D109](#claim-d109), [D564](#claim-d564) — all four
-  published recipes converge on this [C009](#claim-c009), [B088](#claim-b088), [D050](#claim-d050), [D107](#claim-d107).
-- **Buffer coir** (Ca/Mg soak) or it dumps Na/K and locks out Ca/Mg [B135](#claim-b135), [B136](#claim-b136); keep coir
-  **<50%** [A095](#claim-a095).
-- Keep the mix **rewettable** — dried peat without a wetting agent may never recover [A052](#claim-a052);
-  bark/pumice/coir rewet well [A054](#claim-a054), [A093](#claim-a093).
-- Adjust pH with **sulfur (−1 unit per tsp/gal)** [A041](#claim-a041) or lime [A042](#claim-a042); supply **Ca via
-  gypsum** when pH is already ≥6.0 (no pH rise) [C029](#claim-c029).
-- **Mulch 1–1.5 in**, off the trunk — cuts evaporation ~33% [C087](#claim-c087), [C089](#claim-c089), [C086](#claim-c086).
-- **Topdress refreshes but does not flush salt** [E054](#claim-e054), [C111](#claim-c111); do real refresh + leaching at
+  buffered coir, **pumice** aggregate, and **≤10% compost** [A069](../../claim_table.html#claim-a069), [D109](../../claim_table.html#claim-d109), [D564](../../claim_table.html#claim-d564) — all four
+  published recipes converge on this [C009](../../claim_table.html#claim-c009), [B088](../../claim_table.html#claim-b088), [D050](../../claim_table.html#claim-d050), [D107](../../claim_table.html#claim-d107).
+- **Buffer coir** (Ca/Mg soak) or it dumps Na/K and locks out Ca/Mg [B135](../../claim_table.html#claim-b135), [B136](../../claim_table.html#claim-b136); keep coir
+  **<50%** [A095](../../claim_table.html#claim-a095).
+- Keep the mix **rewettable** — dried peat without a wetting agent may never recover [A052](../../claim_table.html#claim-a052);
+  bark/pumice/coir rewet well [A054](../../claim_table.html#claim-a054), [A093](../../claim_table.html#claim-a093).
+- Adjust pH with **sulfur (−1 unit per tsp/gal)** [A041](../../claim_table.html#claim-a041) or lime [A042](../../claim_table.html#claim-a042); supply **Ca via
+  gypsum** when pH is already ≥6.0 (no pH rise) [C029](../../claim_table.html#claim-c029).
+- **Mulch 1–1.5 in**, off the trunk — cuts evaporation ~33% [C087](../../claim_table.html#claim-c087), [C089](../../claim_table.html#claim-c089), [C086](../../claim_table.html#claim-c086).
+- **Topdress refreshes but does not flush salt** [E054](../../claim_table.html#claim-e054), [C111](../../claim_table.html#claim-c111); do real refresh + leaching at
   root-prune (§5/§14).
 
 ## Things not to do
-- **Don't use unbuffered coir**, or coir as the majority fraction [B135](#claim-b135), [A095](#claim-a095).
-- **Don't use a fine, wetting-agent indoor potting mix or garden soil** [C010](#claim-c010).
+- **Don't use unbuffered coir**, or coir as the majority fraction [B135](../../claim_table.html#claim-b135), [A095](../../claim_table.html#claim-a095).
+- **Don't use a fine, wetting-agent indoor potting mix or garden soil** [C010](../../claim_table.html#claim-c010).
 - **Don't over-incorporate fertilizer** — topdressed CRF leaches less N than incorporated
-  [A090](#claim-a090).
-- **Don't pile mulch against the trunk/graft** — crown rot [C086](#claim-c086).
-- **Don't rely on topdressing to control salt** — it can't [E054](#claim-e054).
-- **Don't over-apply soluble P** if relying on mycorrhizae [B031](#claim-b031).
+  [A090](../../claim_table.html#claim-a090).
+- **Don't pile mulch against the trunk/graft** — crown rot [C086](../../claim_table.html#claim-c086).
+- **Don't rely on topdressing to control salt** — it can't [E054](../../claim_table.html#claim-e054).
+- **Don't over-apply soluble P** if relying on mycorrhizae [B031](../../claim_table.html#claim-b031).
 
 ## Evidence gaps
 - **No validated container-Lisbon recipe** — the four formulas are nursery/consumer
-  convergence, not a measured comparison [C009](#claim-c009), [B088](#claim-b088), [D050](#claim-d050), [D107](#claim-d107).
+  convergence, not a measured comparison [C009](../../claim_table.html#claim-c009), [B088](../../claim_table.html#claim-b088), [D050](../../claim_table.html#claim-d050), [D107](../../claim_table.html#claim-d107).
 - **Biochar data is citrus-general greenhouse** (rootstock seedlings), not a Lisbon
-  fruiting-pot trial, and it raises pH [E696](#claim-e696), [E110](#claim-e110).
+  fruiting-pot trial, and it raises pH [E696](../../claim_table.html#claim-e696), [E110](../../claim_table.html#claim-e110).
 - **Calcined clay specs are manufacturer (label-grade)** [E055–E057]; durability/weight not
   independently verified for this use.
-- **Topdress/refresh cadence is weak consumer sourcing** [E053](#claim-e053), [E054](#claim-e054); the "~2 yr" and
-  Ca/Mg-buffer times [B136](#claim-b136) are rules of thumb, not Lisbon-tested.
+- **Topdress/refresh cadence is weak consumer sourcing** [E053](../../claim_table.html#claim-e053), [E054](../../claim_table.html#claim-e054); the "~2 yr" and
+  Ca/Mg-buffer times [B136](../../claim_table.html#claim-b136) are rules of thumb, not Lisbon-tested.

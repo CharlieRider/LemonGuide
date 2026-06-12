@@ -5,7 +5,7 @@ layout: page
 # 13. Disease, Pest, and Physiological Disorder Diagnostics
 
 > **Evidence callout.** This is **strong** — almost entirely UC IPM, CDFA, and university
-> extension, much of it lemon-specific [E062](#claim-e062), [E075](#claim-e075), [B048](#claim-b048). This section is the **home for
+> extension, much of it lemon-specific [E062](../../claim_table.html#claim-e062), [E075](../../claim_table.html#claim-e075), [B048](../../claim_table.html#claim-b048). This section is the **home for
 > *diagnosis*** — identifying what is wrong and telling look-alikes apart; the **management/IPM
 > tactics** (oils, baits, copper bands, Bt, quarantine compliance) are the home of **§16** and
 > are only pointed to here. Root-zone causes (hypoxia, salt) trace to §3/§10; watering-disorder
@@ -45,11 +45,11 @@ calls are **(1) over- vs under-watering** (opposite fixes) and **(2) HLB vs nutr
 | **Transplant leaf drop** | Some leaf drop ~1–2 wk after potting/move | Normal shock/acclimation | C008 | Moderate |
 
 > ⚠️ **The single biggest container killer is overwatering/root rot, and it *mimics* thirst**
-> (wilt + yellowing) [D031](#claim-d031), [D104](#claim-d104). **Wilt + wet mix = stop watering, suspect rot**, not thirst
-> [D032](#claim-d032). Recovery: emergency repot into fresh fast-draining mix, cut rotted roots, withhold
-> water until the mix dries, then restrained watering; improve drainage [D106](#claim-d106) (§5/§11).
+> (wilt + yellowing) [D031](../../claim_table.html#claim-d031), [D104](../../claim_table.html#claim-d104). **Wilt + wet mix = stop watering, suspect rot**, not thirst
+> [D032](../../claim_table.html#claim-d032). Recovery: emergency repot into fresh fast-draining mix, cut rotted roots, withhold
+> water until the mix dries, then restrained watering; improve drainage [D106](../../claim_table.html#claim-d106) (§5/§11).
 > And **waterlogging chlorosis is fixed by restoring drainage/aeration, not by adding chelate**
-> [A064](#claim-a064).
+> [A064](../../claim_table.html#claim-a064).
 
 ---
 
@@ -66,9 +66,9 @@ calls are **(1) over- vs under-watering** (opposite fixes) and **(2) HLB vs nutr
 | **Mal secco** | — | Lisbon **is susceptible** (high xylem vessel density) — **but NOT present in California; do not treat as a CA threat** | B048 | Strong |
 | Crown rot | Rot at trunk base | From buried graft / mulch on trunk (§5/§6) | C086 | Moderate |
 
-**Lisbon susceptibility summary [B050](#claim-b050):** Phytophthora (worse on vigorous lemon rootstocks —
+**Lisbon susceptibility summary [B050](../../claim_table.html#claim-b050):** Phytophthora (worse on vigorous lemon rootstocks —
 another reason for trifoliate Flying Dragon, §2), greasy spot in humid coastal air, and coastal
-**bud/silver mite**. Its toughness is abiotic, *not* disease immunity (§1) [B052](#claim-b052).
+**bud/silver mite**. Its toughness is abiotic, *not* disease immunity (§1) [B052](../../claim_table.html#claim-b052).
 
 ---
 
@@ -94,44 +94,44 @@ another reason for trifoliate Flying Dragon, §2), greasy spot in humid coastal 
 ---
 
 > ### 🪴 Worked example — 19″×14″ west-facing Brentwood / West LA balcony
-> - **Watch list for this site:** **ACP/HLB** (existential — scout every flush [E064](#claim-e064)),
->   **spider mites** (hot west wall, summer [E082](#claim-e082)), **bud/silver mite** (coastal lemon
->   [E073](#claim-e073)), **CLM** (multi-flush [E078](#claim-e078)), **scale/mealybug + sooty mold** (sheltered balcony
->   [E093](#claim-e093)), **orangedog** (acute on a small canopy [E094](#claim-e094)), **snails** (coastal [E065](#claim-e065)), and
->   **root rot** from the shallow wet pot [A117](#claim-a117).
-> - **Before treating, run the differentials:** wilt → check mix wet/dry [D032](#claim-d032); new-leaf mottle
->   → **asymmetric = suspect HLB, report to CDFA 1-800-491-1899** [E062](#claim-e062), [D058](#claim-d058); symmetric →
->   feed/pH (§10). Margin scorch → rule out wind/heat before salt [D039](#claim-d039) (then leachate test §14).
-> - **Marine layer raises greasy-spot/sooty-mold risk** [E075](#claim-e075), [C076](#claim-c076) — diagnostic cue to water
+> - **Watch list for this site:** **ACP/HLB** (existential — scout every flush [E064](../../claim_table.html#claim-e064)),
+>   **spider mites** (hot west wall, summer [E082](../../claim_table.html#claim-e082)), **bud/silver mite** (coastal lemon
+>   [E073](../../claim_table.html#claim-e073)), **CLM** (multi-flush [E078](../../claim_table.html#claim-e078)), **scale/mealybug + sooty mold** (sheltered balcony
+>   [E093](../../claim_table.html#claim-e093)), **orangedog** (acute on a small canopy [E094](../../claim_table.html#claim-e094)), **snails** (coastal [E065](../../claim_table.html#claim-e065)), and
+>   **root rot** from the shallow wet pot [A117](../../claim_table.html#claim-a117).
+> - **Before treating, run the differentials:** wilt → check mix wet/dry [D032](../../claim_table.html#claim-d032); new-leaf mottle
+>   → **asymmetric = suspect HLB, report to CDFA 1-800-491-1899** [E062](../../claim_table.html#claim-e062), [D058](../../claim_table.html#claim-d058); symmetric →
+>   feed/pH (§10). Margin scorch → rule out wind/heat before salt [D039](../../claim_table.html#claim-d039) (then leachate test §14).
+> - **Marine layer raises greasy-spot/sooty-mold risk** [E075](../../claim_table.html#claim-e075), [C076](../../claim_table.html#claim-c076) — diagnostic cue to water
 >   at the soil early so leaves dry (§11/§16).
-> - **Mal secco:** Lisbon is genetically susceptible [B048](#claim-b048) but it is **not in California** —
+> - **Mal secco:** Lisbon is genetically susceptible [B048](../../claim_table.html#claim-b048) but it is **not in California** —
 >   don't misattribute dieback to it.
 
 ---
 
 ## Key takeaways
 - **Diagnose before you treat** — most symptoms have an abiotic look-alike; wrong fix worsens it.
-- **Wilt + wet mix = root rot, not thirst** [D032](#claim-d032), [D031](#claim-d031) — the top container killer; it mimics drought.
-- **HLB = asymmetric blotchy mottle + lopsided bitter fruit** [E062](#claim-e062), [E063](#claim-e063); symmetric chlorosis
-  is nutrition/pH (§10). HLB is **fatal and reportable (CDFA 1-800-491-1899)** [D058](#claim-d058).
-- **Phytophthora is a saturation disease** [A117](#claim-a117) — the shallow-pot threat; prevent by drainage
+- **Wilt + wet mix = root rot, not thirst** [D032](../../claim_table.html#claim-d032), [D031](../../claim_table.html#claim-d031) — the top container killer; it mimics drought.
+- **HLB = asymmetric blotchy mottle + lopsided bitter fruit** [E062](../../claim_table.html#claim-e062), [E063](../../claim_table.html#claim-e063); symmetric chlorosis
+  is nutrition/pH (§10). HLB is **fatal and reportable (CDFA 1-800-491-1899)** [D058](../../claim_table.html#claim-d058).
+- **Phytophthora is a saturation disease** [A117](../../claim_table.html#claim-a117) — the shallow-pot threat; prevent by drainage
   (§3) and a tolerant rootstock (§2).
 - **Likely chronic balcony pests:** spider mites (hot wall), bud/silver mite (coastal), CLM,
-  scale/mealybug; **acute:** orangedog [E082](#claim-e082), [E073](#claim-e073), [E094](#claim-e094).
-- **Sooty mold means a honeydew pest + ants** — trace the chain [E089](#claim-e089), [E091](#claim-e091).
+  scale/mealybug; **acute:** orangedog [E082](../../claim_table.html#claim-e082), [E073](../../claim_table.html#claim-e073), [E094](../../claim_table.html#claim-e094).
+- **Sooty mold means a honeydew pest + ants** — trace the chain [E089](../../claim_table.html#claim-e089), [E091](../../claim_table.html#claim-e091).
 
 ## Things not to do
-- **Don't water a wilting plant before checking if the mix is wet** — may be rot [D032](#claim-d032).
-- **Don't add iron chelate for waterlogging chlorosis** — fix drainage instead [A064](#claim-a064).
-- **Don't assume new-leaf mottle is "just nutrition"** — check for HLB asymmetry first [E062](#claim-e062).
-- **Don't treat for mal secco in California** — it isn't here [B048](#claim-b048).
+- **Don't water a wilting plant before checking if the mix is wet** — may be rot [D032](../../claim_table.html#claim-d032).
+- **Don't add iron chelate for waterlogging chlorosis** — fix drainage instead [A064](../../claim_table.html#claim-a064).
+- **Don't assume new-leaf mottle is "just nutrition"** — check for HLB asymmetry first [E062](../../claim_table.html#claim-e062).
+- **Don't treat for mal secco in California** — it isn't here [B048](../../claim_table.html#claim-b048).
 - **Don't spray broad-spectrum insecticide** as a first response — it flares mites and breaks
-  biological control [E082](#claim-e082) (§16).
+  biological control [E082](../../claim_table.html#claim-e082) (§16).
 
 ## Evidence gaps
 - **Diagnostics are general citrus / lemon, not container-Lisbon-specific** — symptom thresholds
-  (e.g., spider-mite action levels) are not formally established [E081](#claim-e081).
-- **Eriophyid and many pests are diagnosed by damage, not the organism** (microscopic) [E071](#claim-e071).
-- **Greasy-spot/marine-layer risk for this site is weakly sourced** [C076](#claim-c076); severity in arid
-  coastal CA is uncertain [E075](#claim-e075).
-- **Root-rot recovery protocol is weak consumer sourcing** [D106](#claim-d106); no container-Lisbon trial.
+  (e.g., spider-mite action levels) are not formally established [E081](../../claim_table.html#claim-e081).
+- **Eriophyid and many pests are diagnosed by damage, not the organism** (microscopic) [E071](../../claim_table.html#claim-e071).
+- **Greasy-spot/marine-layer risk for this site is weakly sourced** [C076](../../claim_table.html#claim-c076); severity in arid
+  coastal CA is uncertain [E075](../../claim_table.html#claim-e075).
+- **Root-rot recovery protocol is weak consumer sourcing** [D106](../../claim_table.html#claim-d106); no container-Lisbon trial.

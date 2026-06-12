@@ -21,13 +21,13 @@ maintenance rhythm below.
 
 ## 17.1 The Container Decline Cycle — the Master Failure Mode (synthesis)
 
-> ⚠️ **Untreated container decline path (~5–7 years) [B139](#claim-b139):**
+> ⚠️ **Untreated container decline path (~5–7 years) [B139](../../claim_table.html#claim-b139):**
 > roots circle/bind → mix degrades to fines, loses porosity → salts accumulate → uptake falls →
 > canopy thins, fruit shrinks → **tree stalls and dies.**
 > A neglected container tree declines **far sooner** than its potential lifespan (potted lemon up
-> to ~50 yr, but most dwarf/indoor <30 yr; in-ground 50–100 yr) [D079](#claim-d079), [D081](#claim-d081).
+> to ~50 yr, but most dwarf/indoor <30 yr; in-ground 50–100 yr) [D079](../../claim_table.html#claim-d079), [D081](../../claim_table.html#claim-d081).
 
-**The prevention cycle [B140](#claim-b140) (the single most important maintenance routine in the guide):**
+**The prevention cycle [B140](../../claim_table.html#claim-b140) (the single most important maintenance routine in the guide):**
 
 | Cadence | Action | Home section |
 |---|---|---|
@@ -36,8 +36,8 @@ maintenance rhythm below.
 | **Every watering** | Leach **~15–30%** | §11, §14 |
 | Ongoing | Steady "weekly-weakly" feeding with micros | §10 |
 
-> Container longevity is a **maintenance outcome**, not a fixed lifespan [D082](#claim-d082): up-size every
-> 1–2 yr early, then hold by root-pruning into the same pot, with durable mineral media [D082](#claim-d082).
+> Container longevity is a **maintenance outcome**, not a fixed lifespan [D082](../../claim_table.html#claim-d082): up-size every
+> 1–2 yr early, then hold by root-pruning into the same pot, with durable mineral media [D082](../../claim_table.html#claim-d082).
 
 ---
 
@@ -86,7 +86,7 @@ maintenance rhythm below.
 > **Container-type root science [D115–D120]:** copper-coated (CPC) and air-pruning (APC)
 > containers produce **finer, less-circling roots** (CPC specific root length 25.4 vs APC 21.6
 > m/g; grafted CPC trees taller, 114 vs 96 cm) — but **fibrous root *mass* did not differ** among
-> types; the benefit is **root distribution/quality, not total mass** [D119](#claim-d119). For a hot west
+> types; the benefit is **root distribution/quality, not total mass** [D119](../../claim_table.html#claim-d119). For a hot west
 > wall, weigh air-pruning's anti-circling benefit against its faster drying (§5/§11).
 
 ---
@@ -94,51 +94,51 @@ maintenance rhythm below.
 ## 17.5 Carrying Capacity (don't over-crop a small canopy)
 
 A pruned/small canopy supports fewer fruit — **adequate leaf area per fruit is the
-carrying-capacity constraint** [C039](#claim-c039), [C342](#claim-c342), and **canopy:root balance is fundamental to
-container success** [C024](#claim-c024). Over-pruning shrinks both the crop and the engine that feeds it
-[C025](#claim-c025). Match expectations (a few dozen fruit/yr, §12) to the canopy you keep.
+carrying-capacity constraint** [C039](../../claim_table.html#claim-c039), [C342](../../claim_table.html#claim-c342), and **canopy:root balance is fundamental to
+container success** [C024](../../claim_table.html#claim-c024). Over-pruning shrinks both the crop and the engine that feeds it
+[C025](../../claim_table.html#claim-c025). Match expectations (a few dozen fruit/yr, §12) to the canopy you keep.
 
 ---
 
 > ### 🪴 Worked example — 19″×14″ west-facing Brentwood / West LA balcony
-> - **Run the prevention cycle religiously** [B140](#claim-b140) — it is the difference between a tree that
->   lasts decades and one that enters the **5–7-year decline spiral** [B139](#claim-b139): late-winter
+> - **Run the prevention cycle religiously** [B140](../../claim_table.html#claim-b140) — it is the difference between a tree that
+>   lasts decades and one that enters the **5–7-year decline spiral** [B139](../../claim_table.html#claim-b139): late-winter
 >   root-prune + media refresh + **deep salt flush** (critical on hard LA water), annual
 >   post-harvest canopy prune, **15–30% leach every watering**.
 > - **The two failures most likely here:** (1) **root rot** from the shallow wet pot — *wilt +
->   wet mix = stop watering* [B024](#claim-b024), [D105](#claim-d105); (2) **salt decline** from hard water without leaching
+>   wet mix = stop watering* [B024](../../claim_table.html#claim-b024), [D105](../../claim_table.html#claim-d105); (2) **salt decline** from hard water without leaching
 >   — watch for the **white rim crust** and rising leachate EC [C126/§14].
-> - **Pot choice:** a **light-colored** rigid pot, **lifted off the concrete** [C120](#claim-c120), beats a
->   dark plastic or fast-drying fabric pot on this hot wall [D085](#claim-d085), [D086](#claim-d086) (heat tactics §15).
-> - **Don't over-prune or over-feed** — both backfire on a small vigorous tree [C025](#claim-c025), [E041](#claim-e041);
->   match the crop to the canopy [C039](#claim-c039).
+> - **Pot choice:** a **light-colored** rigid pot, **lifted off the concrete** [C120](../../claim_table.html#claim-c120), beats a
+>   dark plastic or fast-drying fabric pot on this hot wall [D085](../../claim_table.html#claim-d085), [D086](../../claim_table.html#claim-d086) (heat tactics §15).
+> - **Don't over-prune or over-feed** — both backfire on a small vigorous tree [C025](../../claim_table.html#claim-c025), [E041](../../claim_table.html#claim-e041);
+>   match the crop to the canopy [C039](../../claim_table.html#claim-c039).
 > - **The one irrecoverable failure is HLB** — scout, don't move the tree, report [D058/§16].
 
 ---
 
 ## Key takeaways
 - The master failure is the **5–7-year decline cycle** (root-bind → media collapse → salt →
-  decline) [B139](#claim-b139); the **prevention cycle** (2–3-yr root-prune+refresh+flush, annual prune,
-  15–30% leach) defeats it [B140](#claim-b140).
-- **A small reservoir swings fast and buffers nothing** [B026](#claim-b026) — over- and under-watering both
-  hit harder than in the ground [D033](#claim-d033).
-- **Wilt + wet mix = root rot, stop watering** — the most common and most lethal misread [B024](#claim-b024).
-- **Light-colored pot, off the concrete** — dark/plastic on a hot wall cooks roots [D085](#claim-d085), [C120](#claim-c120).
-- **Don't over-prune or over-feed**; match crop to canopy [C025](#claim-c025), [E041](#claim-e041), [C039](#claim-c039).
-- **HLB is the one unrecoverable failure** — report, never move the tree [D058](#claim-d058).
+  decline) [B139](../../claim_table.html#claim-b139); the **prevention cycle** (2–3-yr root-prune+refresh+flush, annual prune,
+  15–30% leach) defeats it [B140](../../claim_table.html#claim-b140).
+- **A small reservoir swings fast and buffers nothing** [B026](../../claim_table.html#claim-b026) — over- and under-watering both
+  hit harder than in the ground [D033](../../claim_table.html#claim-d033).
+- **Wilt + wet mix = root rot, stop watering** — the most common and most lethal misread [B024](../../claim_table.html#claim-b024).
+- **Light-colored pot, off the concrete** — dark/plastic on a hot wall cooks roots [D085](../../claim_table.html#claim-d085), [C120](../../claim_table.html#claim-c120).
+- **Don't over-prune or over-feed**; match crop to canopy [C025](../../claim_table.html#claim-c025), [E041](../../claim_table.html#claim-e041), [C039](../../claim_table.html#claim-c039).
+- **HLB is the one unrecoverable failure** — report, never move the tree [D058](../../claim_table.html#claim-d058).
 
 ## Things not to do
-- **Don't add water to a wilting plant before checking the mix** — root rot mimics thirst [B024](#claim-b024).
-- **Don't skip the 2–3-yr root-prune/refresh/flush** — decline follows [B139](#claim-b139), [B140](#claim-b140).
-- **Don't use a dark/plastic pot on hot concrete** without shading/lifting it [D085](#claim-d085), [C120](#claim-c120).
-- **Don't over-prune, over-feed (high-N), or over-root-prune** [C025](#claim-c025), [E041](#claim-e041), [C073](#claim-c073).
-- **Don't spray broad-spectrum** for minor pests [E090](#claim-e090); **don't move the tree** out of quarantine
-  [D057](#claim-d057).
+- **Don't add water to a wilting plant before checking the mix** — root rot mimics thirst [B024](../../claim_table.html#claim-b024).
+- **Don't skip the 2–3-yr root-prune/refresh/flush** — decline follows [B139](../../claim_table.html#claim-b139), [B140](../../claim_table.html#claim-b140).
+- **Don't use a dark/plastic pot on hot concrete** without shading/lifting it [D085](../../claim_table.html#claim-d085), [C120](../../claim_table.html#claim-c120).
+- **Don't over-prune, over-feed (high-N), or over-root-prune** [C025](../../claim_table.html#claim-c025), [E041](../../claim_table.html#claim-e041), [C073](../../claim_table.html#claim-c073).
+- **Don't spray broad-spectrum** for minor pests [E090](../../claim_table.html#claim-e090); **don't move the tree** out of quarantine
+  [D057](../../claim_table.html#claim-d057).
 
 ## Evidence gaps
-- **The decline-cycle timeline (5–7 yr) is a synthesis estimate** [B139](#claim-b139), not a measured
-  Lisbon-container study; the prevention cadence is likewise synthesized [B140](#claim-b140).
-- **Pot-lifespan figures are moderate trade sources** [D079](#claim-d079), [D082](#claim-d082).
+- **The decline-cycle timeline (5–7 yr) is a synthesis estimate** [B139](../../claim_table.html#claim-b139), not a measured
+  Lisbon-container study; the prevention cadence is likewise synthesized [B140](../../claim_table.html#claim-b140).
+- **Pot-lifespan figures are moderate trade sources** [D079](../../claim_table.html#claim-d079), [D082](../../claim_table.html#claim-d082).
 - **Container-type root data is from a nursery trial on other citrus** [D115–D120], not fruiting
   Lisbon; benefits are root-quality, not yield-measured.
-- **"Thick-rinded fruit = under-feeding/water stress" is a weak diagnostic** [C135](#claim-c135).
+- **"Thick-rinded fruit = under-feeding/water stress" is a weak diagnostic** [C135](../../claim_table.html#claim-c135).
