@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 18. Container Lisbon Lemon Production System (Synthesis)
 
 > **Evidence callout.** This section **synthesizes** the preceding 17 — it introduces almost no

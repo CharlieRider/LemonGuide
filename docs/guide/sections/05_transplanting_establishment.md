@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 5. Transplanting and Establishment
 
 > **Evidence callout.** Tree-quality and disease-certification advice is **strong**

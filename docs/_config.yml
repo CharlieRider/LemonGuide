@@ -20,6 +20,22 @@ relative_links:
   enabled: true
   collections: true
 
+# Apply the themed `page` layout to every markdown page. apply_frontmatter.py
+# guarantees each page has front matter (Jekyll only lays out pages that do),
+# and this supplies the layout so we don't hand-edit ~190 files.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+# Curate the theme's top nav. Without this, minima lists EVERY titled page in
+# the header (the "wall of links"). These are the only links we want up top;
+# the home page links to everything else.
+header_pages:
+  - guide/sections/index.md
+  - studies/index.md
+
 # Keep generated/source noise out of the built site.
 exclude:
   - "*.py"

@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 3. Root-Zone and Media Engineering
 
 > **Evidence callout.** This section is **strong** on container-crop physics (UC ANR,

@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 15. Heat, Wind, Cold, and Rain Protection
 
 > **Evidence callout.** **Strong** on the physiology and thresholds — root-temperature work

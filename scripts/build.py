@@ -4,11 +4,12 @@ Single build entrypoint for the published Lisbon Lemon Guide.
 
 Runs the publish pipeline in the correct, dependency-respecting order:
 
-    1. sync_from_raw   - pull latest content from the raw Obsidian workspace
-    2. generate_index  - build data/studies_index.json from study frontmatter
-    3. generate_nav    - build guide/studies index pages from that data
-    4. linkify_claims  - turn [CLAIM_ID] into anchored links + table anchors
-    5. lint_claims     - validate every reference resolves (the gate)
+    1. sync_from_raw     - pull latest content from the raw Obsidian workspace
+    2. generate_index    - build data/studies_index.json from study frontmatter
+    3. generate_nav      - build guide/studies index pages from that data
+    4. apply_frontmatter - ensure every page has front matter so minima themes it
+    5. linkify_claims    - turn [CLAIM_ID] into anchored links + table anchors
+    6. lint_claims       - validate every reference resolves (the gate)
 
 The pipeline fails fast: if lint reports errors, build exits non-zero so it
 can be used in CI and as a pre-commit check. Run this before every commit.
@@ -53,7 +54,8 @@ def main() -> int:
             print("\nBUILD FAILED: sync_from_raw reported a problem.")
             return 1
 
-    for step in ("generate_index.py", "generate_nav.py", "linkify_claims.py"):
+    for step in ("generate_index.py", "generate_nav.py",
+                 "apply_frontmatter.py", "linkify_claims.py"):
         if run(step) != 0:
             print(f"\nBUILD FAILED at {step}.")
             return 1

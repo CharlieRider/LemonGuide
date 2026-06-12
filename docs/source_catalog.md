@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Lisbon Lemon Container Guide — Source Catalog & Evidence Map
 
 **Corpus:** 165 study notes in `..\lisbon-lemon-studies\` (11 topics × 15).

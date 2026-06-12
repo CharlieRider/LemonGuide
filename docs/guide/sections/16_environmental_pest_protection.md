@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 16. Environmental and Pest Protection
 
 > **Evidence callout.** **Strong** — almost entirely UC IPM, CDFA, and extension, much of it

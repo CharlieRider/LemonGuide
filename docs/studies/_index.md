@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Lisbon Lemon Studies — Offline Repository
 
 **Built with:** Claude Code /loop

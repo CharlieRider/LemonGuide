@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 4. Phenology and Seasonal Growth Cycle
 
 > **Evidence callout.** The *biological* phenology here is on a **strong** general-citrus

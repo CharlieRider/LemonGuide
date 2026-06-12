@@ -43,9 +43,13 @@ def extract_claims_from_file(filepath):
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
-            # Match [XXXXX] format where X is alphanumeric
-            matches = re.findall(r'\[([A-Z]\d{3})\]', content)
-            claims.update(matches)
+            # Extract every A001-style id inside any [...] bracket, including
+            # multi-id cites like "[B055, A062]" and annotated ones like
+            # "[A013, *extrapolated*]". The old single-id pattern
+            # (\[([A-Z]\d{3})\]) silently skipped those and undercounted broken
+            # refs. See scripts/lint_report.py for the richer, raw-side linter.
+            for bracket in re.findall(r'\[([^\[\]]+)\]', content):
+                claims.update(re.findall(r'\b([A-Z]\d{3})\b', bracket))
     except Exception as e:
         print(f"  Error reading {filepath}: {e}")
     return claims

@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 7. Canopy Architecture and Pruning
 
 > **Evidence callout.** Pruning *principles* (thinning vs heading, light penetration, wound

@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 17. Failure Modes and Corrective Actions
 
 > **Evidence callout.** **Moderate-to-strong** container-crop science (VCE, Clemson, UC, Iowa

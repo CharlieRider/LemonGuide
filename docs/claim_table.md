@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Lisbon Lemon Container Guide — Master Claim Table
 
 **Purpose:** Single source of truth for the guide. Every quantitative target or decision

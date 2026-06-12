@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Lisbon Lemon Guide
 
 Welcome to the Lisbon Lemon Guide publication.

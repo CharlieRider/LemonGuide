@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 6. Container Media and Topdress Systems
 
 > **Evidence callout.** Component *behavior* (bark stability, peat/coir water-holding and pH,

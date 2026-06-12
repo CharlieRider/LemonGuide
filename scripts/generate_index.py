@@ -33,6 +33,8 @@ def parse_frontmatter(text: str) -> dict:
 def main() -> None:
     entries = []
     for path in sorted(STUDIES_DIR.glob("*.md")):
+        if path.name in {"index.md", "_index.md"}:
+            continue  # generated nav pages, not study notes
         text = path.read_text(encoding="utf-8")
         fm = parse_frontmatter(text)
         entry = {

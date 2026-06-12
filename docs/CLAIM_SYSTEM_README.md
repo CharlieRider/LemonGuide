@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Claim Reference System Documentation
 
 ## Overview
