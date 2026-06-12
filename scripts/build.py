@@ -60,11 +60,13 @@ def main() -> int:
             print(f"\nBUILD FAILED at {step}.")
             return 1
 
-    # The gate. Non-zero here means unresolved claim references.
-    lint_rc = run("lint_claims.py")
+    # The gate (single canonical integrity checker, run against RAW source of
+    # truth). Non-zero = unresolved claim refs, missing sources, bad cross-refs,
+    # or a new (F+) claim without a verbatim quote receipt found in its source.
+    lint_rc = run("lint_report.py")
     if lint_rc != 0:
-        print("\nBUILD FAILED: claim linting found unresolved references "
-              "(see errors above). Fix them in the RAW workspace, then rebuild.")
+        print("\nBUILD FAILED: integrity lint found errors (see above and "
+              "_lint_report.md). Fix them in the RAW workspace, then rebuild.")
         return lint_rc
 
     print("\nBUILD OK: content synced, indexed, linkified, and lint-clean.")
