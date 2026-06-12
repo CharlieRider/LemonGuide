@@ -83,88 +83,93 @@ def linkify_guide_sections():
     
     return files_modified
 
+def _esc(s: str) -> str:
+    """Minimal HTML escaping for plain-text table cells."""
+    return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+
+
 def linkify_claim_table():
-    """Add HTML anchors before table rows and linkify source files."""
-    print(f"\n{Color.BLUE}Step 2: Linkifying claim table...{Color.RESET}")
-    
+    """Render the claim table as a raw HTML <table>.
+
+    A 693-row markdown table is pathologically slow for kramdown to parse (it
+    was the dominant cost of the Pages build). Emitting a raw HTML block instead
+    means kramdown passes it straight through untouched — fast — while keeping
+    per-row deep-link anchors (`<tr id="claim-xxx">`) and source-study links.
+    The minima theme styles the bare <table> tag, so no extra CSS is needed.
+
+    Idempotent: each build, sync rewrites this file from the raw markdown table,
+    then this converts it to HTML. If run again on already-HTML content (no
+    markdown header row), it leaves the file unchanged.
+    """
+    print(f"\n{Color.BLUE}Step 2: Rendering claim table as HTML...{Color.RESET}")
+
     try:
         with open(CLAIM_TABLE, 'r', encoding='utf-8') as f:
             content = f.read()
     except Exception as e:
         print(f"  {Color.RED}✗ Error reading claim table: {e}{Color.RESET}")
         return
-    
-    # Get available studies
+
     available_studies = set()
     if STUDIES_DIR.exists():
         for f in STUDIES_DIR.glob("*.md"):
             available_studies.add(f.stem)
-    
+
     lines = content.split('\n')
-    modified_lines = []
-    in_table = False
-    rows_processed = 0
-    anchors_added = 0
+
+    # Locate the markdown table header. If absent, the table is already HTML
+    # (or missing) — leave the file as-is.
+    header_idx = next((i for i, ln in enumerate(lines)
+                       if '| Claim ID | Claim | Category' in ln), None)
+    if header_idx is None:
+        print(f"  {Color.YELLOW}ℹ{Color.RESET} No markdown table found; left unchanged.")
+        return
+
+    header_cells = [c.strip() for c in lines[header_idx].split('|')[1:-1]]
+    pre = lines[:header_idx]            # front matter + heading + intro
+    rows_html = []
     links_added = 0
-    
-    i = 0
+    rows_processed = 0
+
+    i = header_idx + 1
     while i < len(lines):
-        line = lines[i]
-        
-        # Detect table header/separator
-        if '| Claim ID | Claim | Category' in line or line.strip().startswith('|---'):
-            in_table = True
-            modified_lines.append(line)
+        s = lines[i].strip()
+        if not s.startswith('|'):
+            break                       # end of table block
+        if s.startswith('|---'):
             i += 1
             continue
-        
-        # Process table rows
-        if in_table and line.strip().startswith('|') and not line.strip().startswith('|---'):
-            # Parse the row
-            cells = [cell.strip() for cell in line.split('|')[1:-1]]  # Remove outer empty cells
-            
-            if len(cells) >= 5:
-                claim_id = cells[0]
-                
-                # Check if it's a valid claim ID
-                if re.match(r'^[A-Z]\d{3}', claim_id):
-                    anchor = f'<a id="claim-{claim_id.lower()}"></a>'
-                    # Idempotent: only add the anchor if the previous emitted
-                    # line isn't already this anchor (avoids accumulating
-                    # duplicates on repeated runs).
-                    if not (modified_lines and modified_lines[-1].strip() == anchor):
-                        modified_lines.append(anchor)
-                        anchors_added += 1
-
-                    # Process source file cell (index 4). Skip if already a
-                    # markdown link from a prior run.
-                    source_file = cells[4]
-                    if source_file and source_file in available_studies:
-                        # Convert to markdown link
-                        cells[4] = f'[{source_file}](../studies/{source_file}.md)'
-                        links_added += 1
-                    
-                    # Rebuild row preserving format
-                    modified_line = '| ' + ' | '.join(cells) + ' |'
-                    modified_lines.append(modified_line)
-                    rows_processed += 1
+        cells = [c.strip() for c in lines[i].split('|')[1:-1]]
+        if len(cells) >= 5 and re.match(r'^[A-Z]\d{3}', cells[0]):
+            claim_id = cells[0]
+            src = cells[4]
+            tds = []
+            for j, c in enumerate(cells):
+                if j == 4 and src and src in available_studies:
+                    tds.append(f'<a href="../studies/{src}.html">{_esc(src)}</a>')
+                    links_added += 1
                 else:
-                    modified_lines.append(line)
-            else:
-                modified_lines.append(line)
-        else:
-            modified_lines.append(line)
-        
+                    tds.append(_esc(c))
+            row = (f'<tr id="claim-{claim_id.lower()}">'
+                   + ''.join(f'<td>{t}</td>' for t in tds) + '</tr>')
+            rows_html.append(row)
+            rows_processed += 1
         i += 1
-    
-    # Write modified claim table
+
+    post = lines[i:]                    # anything after the table
+
+    thead = ('<thead><tr>'
+             + ''.join(f'<th>{_esc(h)}</th>' for h in header_cells)
+             + '</tr></thead>')
+    tbody = '<tbody>\n' + '\n'.join(rows_html) + '\n</tbody>'
+    table_html = '<table class="claim-table">\n' + thead + '\n' + tbody + '\n</table>'
+
+    new_content = '\n'.join(pre + ['', table_html, ''] + post)
     try:
-        modified_content = '\n'.join(modified_lines)
         with open(CLAIM_TABLE, 'w', encoding='utf-8') as f:
-            f.write(modified_content)
-        print(f"  {Color.GREEN}✓{Color.RESET} Added {anchors_added} HTML anchors")
-        print(f"  {Color.GREEN}✓{Color.RESET} Added {links_added} study file links")
-        print(f"  {Color.GREEN}✓{Color.RESET} Processed {rows_processed} claim rows")
+            f.write(new_content)
+        print(f"  {Color.GREEN}✓{Color.RESET} Rendered {rows_processed} rows as HTML "
+              f"(<tr id> anchors), {links_added} study links")
     except Exception as e:
         print(f"  {Color.RED}✗{Color.RESET} Error writing claim table: {e}")
 
