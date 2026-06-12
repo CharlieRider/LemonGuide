@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 8. Structural Support and Wind Management
 
 > **Evidence callout.** This is one of the **thinnest-sourced** sections. Lisbon's inherent

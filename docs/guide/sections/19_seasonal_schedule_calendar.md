@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 19. Seasonal Irrigation Schedule + Annual Operating Calendar
 
 > **Evidence callout.** This is an **operational assembly** of dated guidance whose evidence

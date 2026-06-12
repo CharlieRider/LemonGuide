@@ -1,0 +1,28 @@
+#!/bin/sh
+# Pre-commit integrity gate for the Lisbon Lemon Guide.
+#
+# Blocks the commit LOCALLY if the canonical linter finds any hard error
+# (broken claim ref, missing source, bad cross-ref, or a new F+ claim without a
+# verifiable quote receipt). This is the *prevention* layer: a bad reference
+# never enters git history, instead of being cleaned up after the fact.
+#
+# One-time install (version-controlled hook, so it travels with the repo):
+#     git config core.hooksPath scripts/hooks
+#
+# Bypass intentionally (rare): git commit --no-verify
+#
+# Resolves python: prefer an active venv/conda python, else `python`.
+PY="${PYTHON:-python}"
+
+echo "[pre-commit] running canonical integrity lint…"
+"$PY" "$(git rev-parse --show-toplevel)/scripts/lint_report.py" --quiet
+rc=$?
+if [ "$rc" -ne 0 ]; then
+    echo ""
+    echo "[pre-commit] BLOCKED: integrity lint failed (rc=$rc)."
+    echo "   See lisbon-lemon-guide/_lint_report.md. Fix in RAW, then re-commit."
+    echo "   (To bypass deliberately: git commit --no-verify)"
+    exit 1
+fi
+echo "[pre-commit] integrity OK."
+exit 0

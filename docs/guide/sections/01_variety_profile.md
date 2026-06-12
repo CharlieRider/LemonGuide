@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 1. Lisbon Lemon Variety Profile
 
 > **Evidence callout.** This section rests on a **strong** Lisbon-specific base: the

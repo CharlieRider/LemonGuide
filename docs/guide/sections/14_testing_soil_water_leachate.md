@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 14. Soil, Media, Water, and Leachate Testing
 
 > **Evidence callout.** **Strong** — IFAS/UC/VCE/OSU extension protocols for pour-through EC,

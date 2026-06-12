@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 2. Rootstock and Tree Selection
 
 > **Evidence callout.** This section is on a **strong** footing. The dwarfing mechanism and

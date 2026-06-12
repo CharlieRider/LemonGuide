@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 9. Flowering, Pollination, and Fruit Set
 
 > **Evidence callout.** This section is **strong** and unusually **Lisbon-specific**: the

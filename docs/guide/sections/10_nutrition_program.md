@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 10. Nutrition and Fertigation Program
 
 > **Evidence callout.** This is the **keystone** quantitative section and is **strong** general

@@ -1,6 +1,11 @@
+---
+layout: page
+title: Guide Sections
+---
+
 # Guide Sections
 
-The Lisbon lemon guide sections are below.
+The Lisbon lemon guide, in 19 sections.
 
 
 - [1. Lisbon Lemon Variety Profile](01_variety_profile.md)
@@ -17,3 +22,8 @@ The Lisbon lemon guide sections are below.
 - [12. Harvest Maturity and Fruit Quality](12_harvest_maturity_quality.md)
 - [13. Disease, Pest, and Physiological Disorder Diagnostics](13_disease_pest_disorder_diagnostics.md)
 - [14. Soil, Media, Water, and Leachate Testing](14_testing_soil_water_leachate.md)
+- [15. Heat, Wind, Cold, and Rain Protection](15_heat_wind_cold_rain_protection.md)
+- [16. Environmental and Pest Protection](16_environmental_pest_protection.md)
+- [17. Failure Modes and Corrective Actions](17_failure_modes_corrective_actions.md)
+- [18. Container Lisbon Lemon Production System (Synthesis)](18_production_system_synthesis.md)
+- [19. Seasonal Irrigation Schedule + Annual Operating Calendar](19_seasonal_schedule_calendar.md)

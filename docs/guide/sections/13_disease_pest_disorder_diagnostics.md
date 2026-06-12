@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 13. Disease, Pest, and Physiological Disorder Diagnostics
 
 > **Evidence callout.** This is **strong** — almost entirely UC IPM, CDFA, and university

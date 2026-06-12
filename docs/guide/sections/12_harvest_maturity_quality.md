@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 12. Harvest Maturity and Fruit Quality
 
 > **Evidence callout.** Lisbon harvest *timing and cues* are **weakly sourced** (consumer/

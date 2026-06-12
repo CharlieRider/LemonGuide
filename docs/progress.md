@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Lisbon Lemon Guide — Build Progress
 
 **Corpus:** `..\lisbon-lemon-studies\` — 165 study notes (11 topics × 15)

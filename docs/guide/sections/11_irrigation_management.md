@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # 11. Irrigation Management
 
 > **Evidence callout.** **Strong** general/container science — UC Davis/CIMIS ET data, VCE
