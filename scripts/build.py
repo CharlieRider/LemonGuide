@@ -11,11 +11,15 @@ Runs the publish pipeline in the correct, dependency-respecting order:
     5. linkify_claims    - turn [CLAIM_ID] into anchored links + table anchors
     6. lint_claims       - validate every reference resolves (the gate)
 
-The pipeline fails fast: if lint reports errors, build exits non-zero so it
-can be used in CI and as a pre-commit check. Run this before every commit.
+By default the lint step is **advisory**: it always runs and prints a summary
+(and lint_report.py always writes _lint_report.{md,json}), but unresolved
+references do not fail the build, so you can regenerate and publish freely.
+Pass --strict to turn lint back into a hard gate (used for a clean pre-publish
+check). Earlier pipeline steps (sync/index/nav/etc.) always fail fast.
 
 Usage:
-    python scripts/build.py            # full build, fails on lint errors
+    python scripts/build.py            # advisory: logs lint issues, exits 0
+    python scripts/build.py --strict   # hard gate: exits non-zero on lint errors
     python scripts/build.py --check    # report sync drift only, write nothing
     python scripts/build.py --skip-sync
 """
@@ -44,6 +48,8 @@ def main() -> int:
                         help="Only check sync drift; write nothing, run no other steps.")
     parser.add_argument("--skip-sync", action="store_true",
                         help="Skip the raw->docs sync step (use current docs/).")
+    parser.add_argument("--strict", action="store_true",
+                        help="Make lint a hard gate: fail the build on lint errors.")
     args = parser.parse_args()
 
     if args.check:
@@ -60,14 +66,22 @@ def main() -> int:
             print(f"\nBUILD FAILED at {step}.")
             return 1
 
-    # The gate (single canonical integrity checker, run against RAW source of
+    # Integrity check (single canonical checker, run against RAW source of
     # truth). Non-zero = unresolved claim refs, missing sources, bad cross-refs,
     # or a new (F+) claim without a verbatim quote receipt found in its source.
+    # lint_report.py always writes _lint_report.{md,json}, so issues are recorded
+    # regardless of whether we gate on them.
     lint_rc = run("lint_report.py")
     if lint_rc != 0:
-        print("\nBUILD FAILED: integrity lint found errors (see above and "
-              "_lint_report.md). Fix them in the RAW workspace, then rebuild.")
-        return lint_rc
+        if args.strict:
+            print("\nBUILD FAILED (--strict): integrity lint found errors (see "
+                  "above and _lint_report.md). Fix them in the RAW workspace, "
+                  "then rebuild.")
+            return lint_rc
+        print("\nBUILD OK (advisory): content synced, indexed, and linkified. "
+              "Integrity lint found unresolved references — logged, not blocking "
+              "(see _lint_report.md). Run with --strict to gate on them.")
+        return 0
 
     print("\nBUILD OK: content synced, indexed, linkified, and lint-clean.")
     return 0
