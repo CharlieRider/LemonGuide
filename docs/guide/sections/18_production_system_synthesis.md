@@ -29,14 +29,14 @@ forces the leaching discipline, which depends on the coarse mix that solves the 
 
 | Constraint | Design answer | Key numbers | Home |
 |---|---|---|---|
-| **Vigor / size** | Dwarfing **Flying Dragon** rootstock + **Yen Ben** (low-thorn, compact) strain + disciplined post-harvest pruning + 2–3-yr root-prune | FD ~4–8 ft / 66–75% reduction [B101](#claim-b101), [D127](#claim-d127) | §2, §1, §7, §5 |
-| **Root zone** | Coarse **pine/fir bark + pumice** mix, **~15–20% AFP**, no drainage layer, white/shaded/double pot, elevated ≥½″ | AFP 15–20% [E631](#claim-e631), [E119](#claim-e119); hypoxia floor 10–12% [B011](#claim-b011) | §3, §6 |
-| **Water / salt** | Water by **pot weight** (≈daily summer), **15–30% leaching fraction** every time + **monthly deep flush**; pour-through EC <1.5 dS/m | LF 0.15–0.30 [B068](#claim-b068), [E120](#claim-e120); EC <1.5 [E002](#claim-e002) | §11, §14 |
-| **Nutrition** | **Weekly-weakly** acid-forming citrus feed + micros; pH ~6.0–6.5; **Fe-EDDHA** for high-pH chlorosis; gypsum for Ca | pH 6.0–6.5 [A040](#claim-a040); Fe-EDDHA >pH7 [A058](#claim-a058) | §10 |
-| **Climate** | **30–50% afternoon shade** in heat; **frost cloth + pre-water + move pot** at mid-20s °F; marine layer helps | Kill ~mid-high 20s °F [B049](#claim-b049); shade >95–100°F [B080](#claim-b080) | §15 |
-| **Pests/disease** | Conserve enemies, **control ants**, **scout every flush for ACP**, never move tree; Phytophthora prevented by rootstock+drainage | HLB report CDFA 1-800-491-1899 [D058](#claim-d058) | §16, §13 |
-| **Reproduction** | Self-fertile + ~20% parthenocarpic — one pot crops; protect set with steady water/N + bees | ~20% parthenocarpy [C041](#claim-c041); bees +44% [C043](#claim-c043) | §9 |
-| **Longevity** | The 2–3-yr **prevention cycle** defeats the 5–7-yr decline spiral | decline ~5–7 yr [B139](#claim-b139) | §17, §5 |
+| **Vigor / size** | Dwarfing **Flying Dragon** rootstock + **Yen Ben** (low-thorn, compact) strain + disciplined post-harvest pruning + 2–3-yr root-prune | FD ~4–8 ft / 66–75% reduction [B101](../../claim_table.html#claim-b101), [D127](../../claim_table.html#claim-d127) | §2, §1, §7, §5 |
+| **Root zone** | Coarse **pine/fir bark + pumice** mix, **~15–20% AFP**, no drainage layer, white/shaded/double pot, elevated ≥½″ | AFP 15–20% [E631](../../claim_table.html#claim-e631), [E119](../../claim_table.html#claim-e119); hypoxia floor 10–12% [B011](../../claim_table.html#claim-b011) | §3, §6 |
+| **Water / salt** | Water by **pot weight** (≈daily summer), **15–30% leaching fraction** every time + **monthly deep flush**; pour-through EC <1.5 dS/m | LF 0.15–0.30 [B068](../../claim_table.html#claim-b068), [E120](../../claim_table.html#claim-e120); EC <1.5 [E002](../../claim_table.html#claim-e002) | §11, §14 |
+| **Nutrition** | **Weekly-weakly** acid-forming citrus feed + micros; pH ~6.0–6.5; **Fe-EDDHA** for high-pH chlorosis; gypsum for Ca | pH 6.0–6.5 [A040](../../claim_table.html#claim-a040); Fe-EDDHA >pH7 [A058](../../claim_table.html#claim-a058) | §10 |
+| **Climate** | **30–50% afternoon shade** in heat; **frost cloth + pre-water + move pot** at mid-20s °F; marine layer helps | Kill ~mid-high 20s °F [B049](../../claim_table.html#claim-b049); shade >95–100°F [B080](../../claim_table.html#claim-b080) | §15 |
+| **Pests/disease** | Conserve enemies, **control ants**, **scout every flush for ACP**, never move tree; Phytophthora prevented by rootstock+drainage | HLB report CDFA 1-800-491-1899 [D058](../../claim_table.html#claim-d058) | §16, §13 |
+| **Reproduction** | Self-fertile + ~20% parthenocarpic — one pot crops; protect set with steady water/N + bees | ~20% parthenocarpy [C041](../../claim_table.html#claim-c041); bees +44% [C043](../../claim_table.html#claim-c043) | §9 |
+| **Longevity** | The 2–3-yr **prevention cycle** defeats the 5–7-yr decline spiral | decline ~5–7 yr [B139](../../claim_table.html#claim-b139) | §17, §5 |
 
 ---
 
@@ -66,17 +66,17 @@ Every cross-section tension and its adopted resolution for this pot:
 
 ## 18.3 Cause-and-Effect Chains (why the choices interlock)
 
-- **Dwarfing → salt-sensitivity → leaching:** Flying Dragon solves vigor [B101](#claim-b101) but is
-  salt-sensitive [C124](#claim-c124) → on hard water you *must* leach 15–30% + monthly flush [B069](#claim-b069), [C127](#claim-c127) and
-  monitor leachate EC [D134](#claim-d134) → which only works in a free-draining coarse mix [C129](#claim-c129).
+- **Dwarfing → salt-sensitivity → leaching:** Flying Dragon solves vigor [B101](../../claim_table.html#claim-b101) but is
+  salt-sensitive [C124](../../claim_table.html#claim-c124) → on hard water you *must* leach 15–30% + monthly flush [B069](../../claim_table.html#claim-b069), [C127](../../claim_table.html#claim-c127) and
+  monitor leachate EC [D134](../../claim_table.html#claim-d134) → which only works in a free-draining coarse mix [C129](../../claim_table.html#claim-c129).
 - **Shallow pot → perched water + root heat → coarse mix + cool pot:** the 14″ depth raises the
-  saturated zone and bakes the root zone [A114](#claim-a114), [A036](#claim-a036) → coarse bark/pumice at ~20% AFP [E631](#claim-e631) +
-  light/shaded/double pot [A039](#claim-a039), [C083](#claim-c083) keeps the base above the 10–12% hypoxia floor [B011](#claim-b011) and
-  below the >34–38°C root ceiling [A006](#claim-a006), [A038](#claim-a038).
-- **Dwarf root scavenges poorly + pot leaches fast → feed weekly-weakly:** [B104](#claim-b104), [B142](#claim-b142) → small
-  frequent complete feeds, not heavy infrequent ones [A072](#claim-a072), [E099](#claim-e099).
-- **West wall = light (good) + heat (bad):** clears the ≥6 h sun bar [A131](#claim-a131) but pushes heat → the
-  same wall's reradiated warmth is the frost defense [D012](#claim-d012), managed seasonally with shade vs
+  saturated zone and bakes the root zone [A114](../../claim_table.html#claim-a114), [A036](../../claim_table.html#claim-a036) → coarse bark/pumice at ~20% AFP [E631](../../claim_table.html#claim-e631) +
+  light/shaded/double pot [A039](../../claim_table.html#claim-a039), [C083](../../claim_table.html#claim-c083) keeps the base above the 10–12% hypoxia floor [B011](../../claim_table.html#claim-b011) and
+  below the >34–38°C root ceiling [A006](../../claim_table.html#claim-a006), [A038](../../claim_table.html#claim-a038).
+- **Dwarf root scavenges poorly + pot leaches fast → feed weekly-weakly:** [B104](../../claim_table.html#claim-b104), [B142](../../claim_table.html#claim-b142) → small
+  frequent complete feeds, not heavy infrequent ones [A072](../../claim_table.html#claim-a072), [E099](../../claim_table.html#claim-e099).
+- **West wall = light (good) + heat (bad):** clears the ≥6 h sun bar [A131](../../claim_table.html#claim-a131) but pushes heat → the
+  same wall's reradiated warmth is the frost defense [D012](../../claim_table.html#claim-d012), managed seasonally with shade vs
   cover.
 
 ---
@@ -91,7 +91,7 @@ Every cross-section tension and its adopted resolution for this pot:
 | Effort | Higher than in-ground — more frequent water, feed, and attention throughout | D093 |
 
 > **The honest bottom line:** a 19″×14″ west-facing Brentwood balcony is a **strong fit** for
-> Lisbon [E117](#claim-e117), yielding a few dozen fruit a year for many years — **conditional on the
+> Lisbon [E117](../../claim_table.html#claim-e117), yielding a few dozen fruit a year for many years — **conditional on the
 > maintenance discipline** (leach, feed weekly-weakly, 2–3-yr root-prune, scout for ACP). The
 > climate is forgiving; the pot is not.
 
@@ -124,23 +124,23 @@ Every cross-section tension and its adopted resolution for this pot:
   wall — and the design choices **interlock** (dwarfing → salt mgmt → coarse mix → leaching).
 - The **two structural resolutions:** take **dwarfing and manage salt** (#5), and **open the
   interior but keep the sun shield** (#1).
-- **Variety fit is strong** [E117](#claim-e117); expect **a few dozen fruit/yr** [E123](#claim-e123) and **indefinite life
-  in the pot** *if* the **2–3-yr prevention cycle** is kept [E122](#claim-e122), [B139](#claim-b139).
+- **Variety fit is strong** [E117](../../claim_table.html#claim-e117); expect **a few dozen fruit/yr** [E123](../../claim_table.html#claim-e123) and **indefinite life
+  in the pot** *if* the **2–3-yr prevention cycle** is kept [E122](../../claim_table.html#claim-e122), [B139](../../claim_table.html#claim-b139).
 - **The climate is forgiving; the pot is not** — the maintenance discipline is the whole game.
 
 ## Things not to do
 - **Don't break the interlock** — e.g., taking Flying Dragon (for size) then skipping leaching
-  (its salt sensitivity) guarantees decline [C124](#claim-c124), [B139](#claim-b139).
+  (its salt sensitivity) guarantees decline [C124](../../claim_table.html#claim-c124), [B139](../../claim_table.html#claim-b139).
 - **Don't substitute a vigorous salt-tolerant rootstock** to dodge leaching — it defeats the pot
-  (#5) [C124](#claim-c124).
+  (#5) [C124](../../claim_table.html#claim-c124).
 - **Don't treat this as a low-maintenance plant** — it needs more frequent water/feed/attention
-  than in-ground [D093](#claim-d093).
+  than in-ground [D093](../../claim_table.html#claim-d093).
 - **Don't let any single conflict resolution slip** — they were chosen for *this* pot (§18.2).
 
 ## Evidence gaps
 - **The integrating "production system" claims are a weak synthesis** [E117–E123] over stronger
   underlying evidence; no end-to-end container-Lisbon trial validates the assembled system.
-- **Yield, lifespan, and "indefinite in pot" are extrapolations** [E123](#claim-e123), [E122](#claim-e122), not measured.
+- **Yield, lifespan, and "indefinite in pot" are extrapolations** [E123](../../claim_table.html#claim-e123), [E122](../../claim_table.html#claim-e122), not measured.
 - **Every quantitative target inherits its evidence gap from its home section** — most are
   citrus-general or container-crop science, not Lisbon-container-measured (consolidated list in
   the assembled guide's Evidence Gaps appendix).

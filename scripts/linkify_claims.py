@@ -9,6 +9,7 @@ Transforms:
 4. Links source files in claim_table.md to study files
 """
 
+import os
 import re
 from pathlib import Path
 
@@ -26,33 +27,41 @@ class Color:
     BLUE = '\033[94m'
     RESET = '\033[0m'
 
-def linkify_claims_in_text(text):
+def linkify_claims_in_text(text, claim_page):
     """
-    Convert claim references to links in markdown text.
+    Convert claim references to links pointing at the claim-table page.
     Handles both single [C001] and comma-separated [C001, C002, C003] formats.
+
+    `claim_page` is the relative URL of the built claim table (e.g.
+    "../../claim_table.html" from a guide section, "claim_table.html" from a
+    docs-root page). Each [A018] becomes [A018](<claim_page>#claim-a018), so the
+    link jumps to that claim's row (<tr id="claim-a018">) on the table page.
     """
+    def link_for(cid):
+        return f'[{cid}]({claim_page}#claim-{cid.lower()})'
+
     def replace_claims(match):
-        # Get the entire bracketed content
         content = match.group(1)
-        
-        # Split by comma if present
         if ',' in content:
-            # Split and process each claim
             claim_ids = [c.strip() for c in content.split(',')]
-            links = [f'[{cid}](#claim-{cid.lower()})' for cid in claim_ids if re.match(r'^[A-Z]\d{3}', cid)]
+            links = [link_for(cid) for cid in claim_ids if re.match(r'^[A-Z]\d{3}', cid)]
             return ', '.join(links)
-        else:
-            # Single claim
-            cid = content.strip()
-            if re.match(r'^[A-Z]\d{3}', cid):
-                return f'[{cid}](#claim-{cid.lower()})'
-            return match.group(0)  # Return unchanged if not valid
-    
+        cid = content.strip()
+        if re.match(r'^[A-Z]\d{3}', cid):
+            return link_for(cid)
+        return match.group(0)  # Return unchanged if not valid
+
     # Match: [XXXXX] or [XXXXX, XXXXX, ...]
     # The trailing (?!\() makes this idempotent: a claim already followed by a
-    # link target — [A018](#claim-a018) — is skipped instead of re-wrapped.
+    # link target — [A018](...#claim-a018) — is skipped instead of re-wrapped.
     pattern = r'\[([A-Z]\d{3}(?:\s*,\s*[A-Z]\d{3})*)\](?!\()'
     return re.sub(pattern, replace_claims, text)
+
+
+def claim_page_href(from_file: Path) -> str:
+    """Relative URL from a docs page to the built claim_table.html."""
+    target = DOCS_DIR / "claim_table.html"
+    return os.path.relpath(target, from_file.parent).replace(os.sep, "/")
 
 def linkify_guide_sections():
     """Convert claim references to markdown links in all guide sections."""
@@ -67,8 +76,8 @@ def linkify_guide_sections():
         try:
             with open(guide_file, 'r', encoding='utf-8') as f:
                 original = f.read()
-            
-            modified = linkify_claims_in_text(original)
+
+            modified = linkify_claims_in_text(original, claim_page_href(guide_file))
             
             if modified != original:
                 with open(guide_file, 'w', encoding='utf-8') as f:
@@ -131,6 +140,11 @@ def linkify_claim_table():
     links_added = 0
     rows_processed = 0
 
+    # Relative URL prefix from this page (docs/claim_table.html) to the study
+    # pages (docs/studies/*.html). Computed, not hardcoded, so it stays correct
+    # if the layout changes (it is "studies", not "../studies").
+    studies_prefix = os.path.relpath(STUDIES_DIR, CLAIM_TABLE.parent).replace(os.sep, "/")
+
     i = header_idx + 1
     while i < len(lines):
         s = lines[i].strip()
@@ -146,7 +160,7 @@ def linkify_claim_table():
             tds = []
             for j, c in enumerate(cells):
                 if j == 4 and src and src in available_studies:
-                    tds.append(f'<a href="../studies/{src}.html">{_esc(src)}</a>')
+                    tds.append(f'<a href="{studies_prefix}/{src}.html">{_esc(src)}</a>')
                     links_added += 1
                 else:
                     tds.append(_esc(c))
@@ -186,8 +200,8 @@ def linkify_other_documents():
         try:
             with open(doc_file, 'r', encoding='utf-8') as f:
                 original = f.read()
-            
-            modified = linkify_claims_in_text(original)
+
+            modified = linkify_claims_in_text(original, claim_page_href(doc_file))
             
             if modified != original:
                 with open(doc_file, 'w', encoding='utf-8') as f:

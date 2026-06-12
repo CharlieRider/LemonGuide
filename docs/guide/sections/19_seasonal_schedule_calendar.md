@@ -6,7 +6,7 @@ layout: page
 
 > **Evidence callout.** This is an **operational assembly** of dated guidance whose evidence
 > homes are earlier sections — UC Master Gardener container calendars, UC IPM fertilizing
-> timing, CIMIS ET, and the synthesis prevention cycle [D092](#claim-d092), [D016](#claim-d016), [B020](#claim-b020), [B140](#claim-b140). The
+> timing, CIMIS ET, and the synthesis prevention cycle [D092](../../claim_table.html#claim-d092), [D016](../../claim_table.html#claim-d016), [B020](../../claim_table.html#claim-b020), [B140](../../claim_table.html#claim-b140). The
 > *biological* phenology behind it is §4; irrigation *practice* is §11; nutrition is §10. It is
 > **strong on the framework, weak on exact dates** (mild West-LA blurs the calendar — §4).
 > **Use it as a default rhythm, overridden by direct observation** (pot weight, pour-through
@@ -23,7 +23,7 @@ the **2–3-year prevention cycle** (late winter).
 ## 19.1 Seasonal Irrigation Schedule (by ET, set by observation)
 
 Coastal/West-LA ETo swings **~3–5× across the year** (~5–6 mm/day mid-summer → ~1–2 mm/day
-winter) [B020](#claim-b020) — the schedule must track that, not a fixed calendar [B021](#claim-b021), [E025](#claim-e025).
+winter) [B020](../../claim_table.html#claim-b020) — the schedule must track that, not a fixed calendar [B021](../../claim_table.html#claim-b021), [E025](../../claim_table.html#claim-e025).
 
 | Season | ETo / demand | Typical frequency (14″ west pot) | Leach every watering | Claims |
 |---|---|---|---|---|
@@ -32,8 +32,8 @@ winter) [B020](#claim-b020) — the schedule must track that, not a fixed calend
 | **Winter (Dec–Feb)** | Low (~1–2 mm/day) | Every several days–weekly; keep just moist, **never waterlogged** | 15–30% when watering | B020, D091 |
 
 **Always:** water **early morning**, deep to a small drainage surplus, then dry-down; **set
-frequency by pot weight / depth check, not the calendar** [B114](#claim-b114), [B112](#claim-b112), [B023](#claim-b023) (§11). Marine-layer
-mornings cut demand [B022](#claim-b022). **Monthly deep flush** (2–3× pot volume) year-round [C127](#claim-c127).
+frequency by pot weight / depth check, not the calendar** [B114](../../claim_table.html#claim-b114), [B112](../../claim_table.html#claim-b112), [B023](../../claim_table.html#claim-b023) (§11). Marine-layer
+mornings cut demand [B022](../../claim_table.html#claim-b022). **Monthly deep flush** (2–3× pot volume) year-round [C127](../../claim_table.html#claim-c127).
 
 ---
 
@@ -83,26 +83,26 @@ mornings cut demand [B022](#claim-b022). **Monthly deep flush** (2–3× pot vol
 
 ## Key takeaways
 - **Track ET, set by observation:** ~daily summer water, every several days in winter (3–5×
-  swing) — by **pot weight, not calendar** [B020](#claim-b020), [B023](#claim-b023).
+  swing) — by **pot weight, not calendar** [B020](../../claim_table.html#claim-b020), [B023](../../claim_table.html#claim-b023).
 - **Feed Feb–Oct weekly-weakly; ease off in winter**; first feed Jan–Feb, no late-season N
-  [D089](#claim-d089), [D016](#claim-d016), [D013](#claim-d013).
-- **Late winter = heavy maintenance** (root-prune + refresh + flush, structural prune) [B140](#claim-b140), [D065](#claim-d065); **after harvest = light canopy prune** [A124](#claim-a124).
-- **Two never-skip recurring tasks:** leach every watering [B140](#claim-b140) and **scout every flush for
-  ACP** [E064](#claim-e064).
-- **Summer = shade + daily water; winter = frost watch + minimal inputs** [B080](#claim-b080), [D012](#claim-d012).
+  [D089](../../claim_table.html#claim-d089), [D016](../../claim_table.html#claim-d016), [D013](../../claim_table.html#claim-d013).
+- **Late winter = heavy maintenance** (root-prune + refresh + flush, structural prune) [B140](../../claim_table.html#claim-b140), [D065](../../claim_table.html#claim-d065); **after harvest = light canopy prune** [A124](../../claim_table.html#claim-a124).
+- **Two never-skip recurring tasks:** leach every watering [B140](../../claim_table.html#claim-b140) and **scout every flush for
+  ACP** [E064](../../claim_table.html#claim-e064).
+- **Summer = shade + daily water; winter = frost watch + minimal inputs** [B080](../../claim_table.html#claim-b080), [D012](../../claim_table.html#claim-d012).
 
 ## Things not to do
-- **Don't water or feed on a fixed calendar** — track ET/observation [B021](#claim-b021), [E025](#claim-e025).
+- **Don't water or feed on a fixed calendar** — track ET/observation [B021](../../claim_table.html#claim-b021), [E025](../../claim_table.html#claim-e025).
 - **Don't feed or prune into a heat wave, or feed late-season** — pushes vulnerable growth
-  [B080](#claim-b080), [D013](#claim-d013).
-- **Don't skip the per-watering leach or the late-winter cycle** — decline follows [B140](#claim-b140), [B139](#claim-b139).
-- **Don't stop scouting in winter** — ACP/flush vigilance is year-round [E064](#claim-e064).
-- **Don't waterlog in winter** rain/low-demand months [D091](#claim-d091).
+  [B080](../../claim_table.html#claim-b080), [D013](../../claim_table.html#claim-d013).
+- **Don't skip the per-watering leach or the late-winter cycle** — decline follows [B140](../../claim_table.html#claim-b140), [B139](../../claim_table.html#claim-b139).
+- **Don't stop scouting in winter** — ACP/flush vigilance is year-round [E064](../../claim_table.html#claim-e064).
+- **Don't waterlog in winter** rain/low-demand months [D091](../../claim_table.html#claim-d091).
 
 ## Evidence gaps
 - **Exact dates are weak** — the calendar is a default rhythm; mild marine West-LA blurs bloom,
-  flush, and harvest timing (§4) [C015](#claim-c015), [C017](#claim-c017), so observation overrides the table.
-- **Irrigation frequency is extrapolated** (~daily summer) [A103](#claim-a103), [D097](#claim-d097), not a measured
-  container-Lisbon figure; ET swing is regional [B020](#claim-b020), not pot-calibrated.
-- **The operating calendar synthesizes container-citrus extension guidance** [D092](#claim-d092), [D089](#claim-d089), not a
+  flush, and harvest timing (§4) [C015](../../claim_table.html#claim-c015), [C017](../../claim_table.html#claim-c017), so observation overrides the table.
+- **Irrigation frequency is extrapolated** (~daily summer) [A103](../../claim_table.html#claim-a103), [D097](../../claim_table.html#claim-d097), not a measured
+  container-Lisbon figure; ET swing is regional [B020](../../claim_table.html#claim-b020), not pot-calibrated.
+- **The operating calendar synthesizes container-citrus extension guidance** [D092](../../claim_table.html#claim-d092), [D089](../../claim_table.html#claim-d089), not a
   Lisbon-container trial.
