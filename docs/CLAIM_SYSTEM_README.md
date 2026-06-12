@@ -110,15 +110,15 @@ VALIDATION RESULTS
 ============================================================
 
 4a. Claims referenced but not in table:
-  ✗ [C329] referenced in: 07_canopy_pruning.md
-  ✗ [D489] referenced in: 06_container_media_topdress.md
+  ✗ [C329](#claim-c329) referenced in: 07_canopy_pruning.md
+  ✗ [D489](#claim-d489) referenced in: 06_container_media_topdress.md
   ...
 
 4b. Study file references in claim table:
   ✓ All claim table source files exist
 
 4c. Claim table entries not referenced in guide:
-  ⚠ [A002] defined but not used
+  ⚠ [A002](#claim-a002) defined but not used
   ... and 441 more
 
 ============================================================
@@ -144,7 +144,7 @@ python scripts/linkify_claims.py
 
 **Actions:**
 1. Converts `[CLAIM_ID]` to markdown link `[CLAIM_ID](#claim-id)` in guide sections
-2. Handles comma-separated claims: `[C001, C002]` → `[C001](#claim-c001), [C002](#claim-c002)`
+2. Handles comma-separated claims: `[C001](#claim-c001), [C002](#claim-c002)` → `[C001](#claim-c001), [C002](#claim-c002)`
 3. Adds HTML anchors before each claim table row for deep linking
 4. Linkifies source file references: `1985_cfcs_...` → `[1985_cfcs_...](../studies/1985_cfcs_....md)`
 

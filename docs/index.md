@@ -24,4 +24,4 @@ It is structured to show the guide sections, the evidence behind claims, and the
 
 ## Publish instructions
 
-This site is configured for GitHub Pages from the `main` branch using the `docs/` folder.
+This site is configured for GitHub Pages from the `master` branch using the `docs/` folder.

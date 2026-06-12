@@ -11,8 +11,16 @@ Validates:
 
 import re
 import os
+import sys
 from pathlib import Path
 from collections import defaultdict
+
+# Ensure UTF-8 output so the ✓/✗/⚠ glyphs don't crash on Windows cp1252.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except (AttributeError, ValueError):
+    pass
 
 # Paths
 REPO_ROOT = Path(__file__).parent.parent
@@ -66,7 +74,14 @@ def extract_claim_table_rows():
             if len(parts) >= 5:
                 claim_id = parts[0].strip()
                 source_file = parts[4].strip()  # Column 5 = Source File
-                
+
+                # After linkify, the source cell is a markdown link
+                # `[name](../studies/name.md)`. Unwrap it back to the bare
+                # study stem so the existence check still works.
+                link_match = re.match(r'^\[([^\]]+)\]\([^)]+\)$', source_file)
+                if link_match:
+                    source_file = link_match.group(1).strip()
+
                 # Filter for valid claim IDs (A001 format)
                 if re.match(r'^[A-Z]\d{3}', claim_id):
                     claims_info[claim_id] = source_file
@@ -190,4 +205,5 @@ def lint_all_claims():
     }
 
 if __name__ == "__main__":
-    lint_all_claims()
+    result = lint_all_claims()
+    sys.exit(1 if result["errors"] else 0)

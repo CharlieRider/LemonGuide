@@ -1,0 +1,131 @@
+# soil_rules.yaml — tunable rules for soil_normalizer.py
+# Hand-edit after the Pass-1 analysis run. The script falls back to identical
+# embedded defaults if PyYAML or this file is unavailable.
+#
+# All conversion factors carry a `source` so provenance is auditable. Scope is
+# soil chemical + physical only (pH, EC/salinity, AFP/WHC/total porosity, CEC,
+# water-salinity). No fertilizer-rate or thermal conversions.
+
+# ---------------------------------------------------------------------------
+# 1. MEDIUM classification — keyword -> medium. Source-filename keywords are
+#    checked first (strong signal), then claim/notes text. First match wins,
+#    in the order listed here.
+# ---------------------------------------------------------------------------
+medium_rules:
+  irrigation_water:
+    source_kw: [water-quality, irrigation-water]
+    text_kw: ["irrigation water", "water quality", "tap water", "water ec",
+              "in the water", "water salinity"]
+  solution:
+    source_kw: [hydroponic, nutrient-solution]
+    text_kw: ["nutrient solution", "hydroponic", "mmol/l", "fertigation solution"]
+  lab_assay:
+    source_kw: [hypoxia-rnaseq, root-zone-temperature, supraoptimal, critical-root]
+    text_kw: ["excised", "electrolyte leakage", "membrane injury", "in vitro",
+              "tissue culture"]
+  tissue:
+    source_kw: [leaf-tissue, critical-nutrient]
+    text_kw: ["leaf tissue", "foliar tissue", "petiole", "leaf analysis",
+              "tissue test", "leaf sufficiency"]
+  soilless_substrate:
+    source_kw: [substrate, container-media, potting, coir, cococoir, biochar,
+                pine-bark, rice-hulls, pumice, perlite, turface, air-porosity,
+                container-substrate, soil-mixes, diy-citrus, potting-soil]
+    text_kw: ["container media", "potting", "substrate", "soilless", "peat",
+              "coir", "coco", "pine bark", "bark mix", "pumice", "perlite",
+              "pour-through", "pour through", "saturated media", "container capacity",
+              "potting mix", "the pot", "in a pot", "container"]
+  mineral_soil:
+    source_kw: [drought-salinity, irrigation-scheduling, fertilizing-citrus,
+                soil-temperature, citrus-fertilization]
+    text_kw: ["field soil", "orchard", "in-ground", "in the ground", "native soil",
+              "saturated paste", "ece", "per acre", "grove", "soil ph", "soil ec",
+              "soil test", "mineral soil"]
+  # fallthrough -> unspecified
+
+# ---------------------------------------------------------------------------
+# 2. MEASUREMENT method classification (for EC and pH). First match wins.
+#    If nothing matches, method=unspecified and the script infers a default
+#    from the medium (see method_default_by_medium) at lower confidence.
+# ---------------------------------------------------------------------------
+method_rules:
+  saturated_paste:   ["saturated paste", "ece", "saturation extract"]
+  pour_through:      ["pour-through", "pour through", "pourthru", "leachate"]
+  sme:               ["saturated media", "sme", "2:1"]
+  dilution_1_2:      ["1:2"]
+  dilution_1_5:      ["1:5"]
+  dilution_1_1:      ["1:1 ", "1:1,", "1:1)"]
+  water_ec:          ["water ec", "ec of the water", "irrigation water"]
+
+method_default_by_medium:
+  mineral_soil: saturated_paste     # soil salinity is conventionally reported as ECe
+  soilless_substrate: sme           # media labs default to SME family
+  irrigation_water: water_ec
+  solution: solution_ec
+  unspecified: unspecified
+
+# ---------------------------------------------------------------------------
+# 3. EC conversion to the POUR-THROUGH basis (home-pot scenario).
+#    pour_through ~= SME (NCSU PourThru method); dilution readings are scaled up
+#    to the saturation/pour-through basis; ECe (soil saturated paste) is treated
+#    as comparable to the saturation basis with a cross-medium caveat.
+#    factor = multiply raw EC (dS/m) by this to estimate pour-through EC.
+# ---------------------------------------------------------------------------
+ec_to_pourthrough:
+  pour_through:    {factor: 1.00, confidence: direct,   source: "definitional (target basis)"}
+  sme:             {factor: 1.00, confidence: high,     source: "Cavins et al. 2000, NCSU PourThru: PourThru ~= SME"}
+  saturated_paste: {factor: 1.00, confidence: moderate, source: "saturation-extract family; ECe(soil)~SME(media), cross-medium caveat"}
+  dilution_1_2:    {factor: 2.50, confidence: moderate, source: "Warncke 1986 / NCSU: 1:2 v/v x ~2.5 -> SME basis"}
+  dilution_1_5:    {factor: 5.00, confidence: low,      source: "approx 1:5 -> saturation basis, texture-dependent"}
+  dilution_1_1:    {factor: 1.80, confidence: low,      source: "approx 1:1 -> saturation basis"}
+  water_ec:        {factor: null, confidence: na,       source: "water EC stays on its own basis (not a media reading)"}
+  solution_ec:     {factor: null, confidence: na,       source: "nutrient-solution EC not comparable to media pour-through"}
+  unspecified:     {factor: 1.00, confidence: assumed,  source: "no method stated; assume saturation/pour-through basis"}
+
+# ---------------------------------------------------------------------------
+# 4. pH conversion to the pour-through basis. Method drift across extraction
+#    methods is small (<= ~0.3 unit), so conversion is identity with a noted
+#    drift. The mineral->soilless *target-range* offset is reported as a caveat,
+#    not applied to the measured value.
+# ---------------------------------------------------------------------------
+ph_rules:
+  method_drift_units: 0.3
+  drift_source: "Extraction-method pH drift across 1:1/1:2/SME/PourThru is <= ~0.3 unit (NCSU PourThru)"
+  mineral_to_soilless_target_offset: -0.5
+  offset_source: "Soilless-media optimum pH runs ~0.5 unit below mineral-soil optimum (Purdue HO-substrate)"
+
+# ---------------------------------------------------------------------------
+# 5. AFP / porosity container-HEIGHT transfer (perched-water-table model).
+#    AFP(H) = TP * (1 - PWT/H)  with TP, PWT fit to the UC ANR anchor points
+#    (4in pot 3.25in tall = 13% AFP; 6in pot 4.5in tall = 20% AFP).
+#    Transfer a value measured at height h_src to the target height by the
+#    geometry ratio (1 - PWT/H_target)/(1 - PWT/h_src), preserving the
+#    substrate's own AFP level. Heights in cm internally.
+# ---------------------------------------------------------------------------
+afp_model:
+  total_porosity_pct: 38.2      # TP, fit from anchors
+  perched_water_cm: 5.45        # PWT, fit from anchors
+  source: "UC ANR Tjosvold 2019, Soil Mixes Part 2: AFP vs container height (peat:vermiculite anchors)"
+  caveat: "Anchored on one peat:vermiculite mix; use as a relative geometry shift, not an absolute AFP for a bark mix."
+  anchors_in_to_afp: {3.25: 13.0, 4.5: 20.0}
+
+# Target container heights (inches) for the canonical scenarios.
+scenarios:
+  field_soil:        {height_in: null}   # open profile, no perched table
+  nursery_container: {height_in: 6.0}    # typical #5-ish nursery height proxy
+  home_pot:          {height_in: 14.0}   # the 19" x 14" target (primary)
+
+# Known container-height parses (inches tall) for geometry detection.
+container_heights_in:
+  "648 tray": 1.0
+  "288 cell": 1.5
+  "tray": 1.0
+  "cell": 1.5
+  "4-inch": 3.25
+  "4 inch": 3.25
+  "6-inch": 4.5
+  "6 inch": 4.5
+  "1-gallon": 6.5
+  "5-gallon": 12.0
+  "14-inch": 14.0
+  "14 inch": 14.0
