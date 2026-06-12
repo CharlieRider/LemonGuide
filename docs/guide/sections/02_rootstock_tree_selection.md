@@ -177,7 +177,7 @@ advice is simpler: **buy a tree already budded on the right rootstock** [A125](.
   [D127](../../claim_table.html#claim-d127) is for in-ground/standard culture; the actual restrained size in this pot is
   inferred, not measured (see §7).
 - **Flying Dragon × Lisbon graft compatibility** is asserted via the general "holds across
-  lemons/Lisbon" claim [C013](../../claim_table.html#claim-c013) and a nursery "Dwarf Lisbon" product [D539, *weak*]; no
+  lemons/Lisbon" claim [C013](../../claim_table.html#claim-c013) and a nursery "Dwarf Lisbon" product [D098, *weak*]; no
   long-term compatibility study is in the corpus.
 - **The dwarfing-vs-salinity resolution rests on a weak synthesis** [E118](../../claim_table.html#claim-e118) plus management
   assumptions; the corpus has no container study quantifying how much leaching offsets

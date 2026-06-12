@@ -7,13 +7,13 @@ layout: page
 > **Evidence callout.** This section is **strong** on container-crop physics (UC ANR,
 > Purdue, Clemson, peer-reviewed substrate science) but largely **extrapolated to citrus**:
 > the air/water/porosity targets are general container-substrate science, not Lisbon
-> trials. The one citrus-specific substrate study is the 2026 biochar trial [E696–E698].
+> trials. The one citrus-specific substrate study is the 2026 biochar trial [E108–E110].
 > **Normalization note:** per the build rules, AFP/porosity figures here are read on the
 > **14″-deep home-pot basis**. The normalizer left most AFP claims as "context-only"
 > (substrate-bench values, not geometry-converted), so the operative correction is the
 > *height rule* [A114](../../claim_table.html#claim-a114), [A115](../../claim_table.html#claim-a115): a shallow 14″ pot holds **more water and less air** than the
 > deep columns used to measure published AFP — so we **design the bulk mix toward the high
-> end (~15–20% AFP)** [E631](../../claim_table.html#claim-e631) to keep the wet bottom band above the hypoxia floor.
+> end (~15–20% AFP)** [E043](../../claim_table.html#claim-e043) to keep the wet bottom band above the hypoxia floor.
 > Recipe/ingredients are the home of **§6**; this section sets the *targets and physics*.
 
 The root zone of a 14″ pot is a small, shallow, fast-changing reservoir whose single
@@ -56,7 +56,7 @@ the mix must be engineered coarse.
 | Property | Target | Note | Claim | Strength |
 |---|---|---|---|---|
 | **Air-filled porosity (AFP)** | **≥10% and ≤25%** at container capacity | <10% O₂-short; >25% dries too fast | A109 | Strong |
-| AFP — design target for *this* pot | **~15–20% (aim ~20%)** | Shallow pot → larger saturated zone; push high | E631, E630 | Moderate |
+| AFP — design target for *this* pot | **~15–20% (aim ~20%)** | Shallow pot → larger saturated zone; push high | E043, E630 | Moderate |
 | Total porosity | **≥50%** (AFP + WHC) | — | A111 | Strong |
 | Hypoxia floor | Root respiration impaired **<~12% AFP**; hypoxia **<~10%** | Wet bottom band must stay above this | B011, B012 | Extrapolated |
 | Minimum gas-filled pores | ≥10% of volume at field capacity, ≥10% of that gas being O₂ | — | B013 | Extrapolated |
@@ -100,7 +100,7 @@ counterproductive:
 | Elevate the pot | Raise **≥½ in** off the surface so holes clear standing water | A127 | Strong |
 | Fabric sidewalls | Breathable walls drain/aerate the whole profile, shrinking the perched zone and raising effective AFP | B116 | Moderate |
 | Particle grade | Coarse/chunky (#3) grade drains far better; fines create the soggy perched zone | D051 | Weak |
-| Self-watering (SIP) | **Not recommended as primary system** — a coarse bark/pumice citrus mix wicks poorly; SIP goals conflict with citrus drainage goals; blocked overflow → perpetual saturation, hypoxia, Phytophthora | E639, E649, E637 | Weak |
+| Self-watering (SIP) | **Not recommended as primary system** — a coarse bark/pumice citrus mix wicks poorly; SIP goals conflict with citrus drainage goals; blocked overflow → perpetual saturation, hypoxia, Phytophthora | E051, E049, E637 | Weak |
 
 ---
 
@@ -117,7 +117,7 @@ the profile toward the hypoxia zone** [A030](../../claim_table.html#claim-a030).
 **Design for durability:** durable, slow-to-degrade components extend the interval —
 pine/fir bark + pumice, a dwarfing rootstock, and a light/shaded pot [B141](../../claim_table.html#claim-b141), [A031](../../claim_table.html#claim-a031). Pumice
 in particular is heavier, stays mixed, does not float or migrate, and outlasts perlite
-(which floats up and crushes) over a multi-year tree [D562](../../claim_table.html#claim-d562), [D563](../../claim_table.html#claim-d563), [D565](../../claim_table.html#claim-d565). Limit fines and
+(which floats up and crushes) over a multi-year tree [D121](../../claim_table.html#claim-d121), [D122](../../claim_table.html#claim-d122), [D124](../../claim_table.html#claim-d124). Limit fines and
 start coarse and partially aged [A046](../../claim_table.html#claim-a046), [A045](../../claim_table.html#claim-a045) (ingredient choices: §6).
 
 ---
@@ -148,7 +148,7 @@ west-wall pot bake toward the >34°C chronic ceiling.
 >   not a way-station to a bigger pot [B086](../../claim_table.html#claim-b086), [D064](../../claim_table.html#claim-d064).
 > - **Engineer the mix coarse and uniform.** Because a 14″ pot is shallow, its effective
 >   AFP is lower than bench values [A114](../../claim_table.html#claim-a114), [A115](../../claim_table.html#claim-a115); design the bulk mix toward **~20% AFP**
->   [E631](../../claim_table.html#claim-e631) with coarse bark + pumice so the wet bottom band stays above the **~10–12%
+>   [E043](../../claim_table.html#claim-e043) with coarse bark + pumice so the wet bottom band stays above the **~10–12%
 >   hypoxia floor** [B011](../../claim_table.html#claim-b011), [B012](../../claim_table.html#claim-b012). Recipe in §6.
 > - **No drainage layer.** A gravel/shard layer would *raise* the perched band into this
 >   already-shallow pot [E102](../../claim_table.html#claim-e102), [E103](../../claim_table.html#claim-e103). Use one uniform coarse mix, **elevate the pot ≥½″**
@@ -156,7 +156,7 @@ west-wall pot bake toward the >34°C chronic ceiling.
 > - **Marine-layer humidity + west-wall heat:** a fabric pot or light-colored/shaded pot
 >   both helps aeration [B116](../../claim_table.html#claim-b116) and keeps the root zone off the >34°C ceiling [A006](../../claim_table.html#claim-a006) (heat
 >   tactics: §15). Skip self-watering containers — they wick poorly with a citrus mix and
->   risk a permanently saturated base [E639](../../claim_table.html#claim-e639), [E649](../../claim_table.html#claim-e649).
+>   risk a permanently saturated base [E051](../../claim_table.html#claim-e051), [E049](../../claim_table.html#claim-e049).
 > - **Plan for drift:** expect AFP to fall and the mix to sink over ~5–6 yr [A044](../../claim_table.html#claim-a044), [B145](../../claim_table.html#claim-b145);
 >   refresh media at each root-prune (§6).
 
@@ -166,7 +166,7 @@ west-wall pot bake toward the >34°C chronic ceiling.
 - The binding constraint is **bottom-of-pot oxygen**; citrus can't avoid hypoxia, only
   react to it [B062](../../claim_table.html#claim-b062) — prevent it by design.
 - Target **AFP ≥10–25%** generally [A109](../../claim_table.html#claim-a109), but **design this shallow pot to ~15–20%**
-  [E631](../../claim_table.html#claim-e631) so the wet base stays above the **~10–12% hypoxia floor** [B011](../../claim_table.html#claim-b011), [B012](../../claim_table.html#claim-b012); keep
+  [E043](../../claim_table.html#claim-e043) so the wet base stays above the **~10–12% hypoxia floor** [B011](../../claim_table.html#claim-b011), [B012](../../claim_table.html#claim-b012); keep
   **total porosity ≥50%** [A111](../../claim_table.html#claim-a111).
 - **No drainage layer** — it lifts the perched water band higher and shortens aerated depth
   (p<0.001) [E102](../../claim_table.html#claim-e102), [E103](../../claim_table.html#claim-e103). Use a uniform coarse mix; elevate the pot ≥½″ [A127](../../claim_table.html#claim-a127), [E103](../../claim_table.html#claim-e103).
@@ -180,13 +180,13 @@ west-wall pot bake toward the >34°C chronic ceiling.
   roots [D064](../../claim_table.html#claim-d064).
 - **Don't use a fine, water-retentive or wetting-agent indoor potting mix** — it keeps the
   base waterlogged [C010](../../claim_table.html#claim-c010), [D051](../../claim_table.html#claim-d051) (see §6).
-- **Don't run a self-watering/SIP setup as the primary system** for citrus [E639](../../claim_table.html#claim-e639), [E649](../../claim_table.html#claim-e649).
+- **Don't run a self-watering/SIP setup as the primary system** for citrus [E051](../../claim_table.html#claim-e051), [E049](../../claim_table.html#claim-e049).
 - **Don't expect topdressing to rescue a degraded lower profile** — it won't [C111](../../claim_table.html#claim-c111).
 
 ## Evidence gaps
 - **Almost no citrus-specific porosity/AFP targets.** The 10–25% / 15–20% AFP figures are
-  general container science extrapolated to citrus [A109](../../claim_table.html#claim-a109), [E631](../../claim_table.html#claim-e631); the only citrus substrate
-  trial is the 2026 biochar study [E696](../../claim_table.html#claim-e696) (substrate amendments are detailed in §6).
+  general container science extrapolated to citrus [A109](../../claim_table.html#claim-a109), [E043](../../claim_table.html#claim-e043); the only citrus substrate
+  trial is the 2026 biochar study [E108](../../claim_table.html#claim-e108) (substrate amendments are detailed in §6).
 - **Hypoxia thresholds (10–12% AFP) are fruit-tree-general, not Lisbon** [B011–B013].
 - **Oxygen-diffusion root-length figures are modelling on non-citrus roots** [E113–E116].
 - **No measured AFP for a real Lisbon 14″ pot** — the height correction is inferred from

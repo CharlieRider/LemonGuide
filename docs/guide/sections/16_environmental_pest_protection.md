@@ -5,7 +5,7 @@ layout: page
 # 16. Environmental and Pest Protection
 
 > **Evidence callout.** **Strong** — almost entirely UC IPM, CDFA, and extension, much of it
-> lemon/California-specific [E646](../../claim_table.html#claim-e646), [E064](../../claim_table.html#claim-e064), [D110](../../claim_table.html#claim-d110). This section is the **home for *management*** —
+> lemon/California-specific [E058](../../claim_table.html#claim-e058), [E064](../../claim_table.html#claim-e064), [D110](../../claim_table.html#claim-d110). This section is the **home for *management*** —
 > the IPM tactics, biocontrol, spray rules, and quarantine compliance; **diagnosis/identification
 > is §13** (cross-referenced, not repeated). The governing principle throughout: **a single
 > balcony pot is an IPM-friendly system** — biological control and physical/cultural tactics do
@@ -24,8 +24,8 @@ quarantine compliance**, because that is the one pest that ends the tree.
 | Tier | Action | Why | Claim | Strength |
 |---|---|---|---|---|
 | 1 | **Conserve natural enemies** | They control aphids (~6 wk), whiteflies, mites, CLM unaided | E069, E088, E079 | Strong |
-| 2 | **Control ants** | Ants farm/protect honeydew pests and **break biological control** — highest-leverage action | E646 | Strong |
-| 3 | **Physical / cultural** | Hosing, hand-removal, barriers, skirt-pruning, open canopy for airflow | E070(§13), E667, E059 | Strong |
+| 2 | **Control ants** | Ants farm/protect honeydew pests and **break biological control** — highest-leverage action | E058 | Strong |
+| 3 | **Physical / cultural** | Hosing, hand-removal, barriers, skirt-pruning, open canopy for airflow | E070(§13), E067, E059 | Strong |
 | 4 | **Selective/contact materials** | Oils, soaps, Bt, iron-phosphate, spinosad — only when warranted | D110, E093, E095 | Strong |
 | 5 | **Broad-spectrum insecticide** | **Avoid** — flares mites, kills beneficials | E082, E090 | Strong |
 
@@ -52,12 +52,12 @@ Diagnosis is §13 (asymmetric mottle; ~45° psyllid; waxy nymph tubules). **Mana
 
 | Method | Specification | Claim | Strength |
 |---|---|---|---|
-| **Trunk/pot barriers** | Sticky bands (e.g., Tanglefoot) + **skirt-pruning** to block the ant bridge to the canopy — easy on an isolated pot | E647 | Strong |
-| **Baits (preferred chemical)** | Ants carry slow-acting bait to the colony; **boric-acid liquid bait stations** are an organic option, refilled often | E648 | Strong |
-| When | Monitor in spring; if sooty mold/scale appears, **stop the ants first** | E648 | Strong |
+| **Trunk/pot barriers** | Sticky bands (e.g., Tanglefoot) + **skirt-pruning** to block the ant bridge to the canopy — easy on an isolated pot | E059 | Strong |
+| **Baits (preferred chemical)** | Ants carry slow-acting bait to the colony; **boric-acid liquid bait stations** are an organic option, refilled often | E060 | Strong |
+| When | Monitor in spring; if sooty mold/scale appears, **stop the ants first** | E060 | Strong |
 
 Controlling ants restores the biological control that suppresses scale, mealybug, aphid, and
-whitefly [E646](../../claim_table.html#claim-e646) — which is why it sits above spraying.
+whitefly [E058](../../claim_table.html#claim-e058) — which is why it sits above spraying.
 
 ---
 
@@ -89,7 +89,7 @@ whitefly [E646](../../claim_table.html#claim-e646) — which is why it sits abov
 | **Scale / mealybug** | Narrow-range **oil timed to crawlers**; control ants; keep open canopy for airflow | E093 | Strong |
 | Whitefly | Biological control usually sufficient; **don't spray** (imidacloprid/pyrethroids/carbaryl flare it + mites); wash sooty mold, control ants | E090 | Strong |
 | Thrips | Low priority (cosmetic ring-scar); monitor twice weekly petal fall→1.5″ fruit; selective material only | E086, E085(§13) | Strong |
-| **Snails** | **Copper band on the pot** (1–2 ft up, ~8″ overlap) repels for years; skirt-prune the bridge; hand-remove at night; iron-phosphate bait | E666, E667 | Strong |
+| **Snails** | **Copper band on the pot** (1–2 ft up, ~8″ overlap) repels for years; skirt-prune the bridge; hand-remove at night; iron-phosphate bait | E066, E067 | Strong |
 | **Orangedog** | **Hand-pick** (acute on small canopy); **Bt** for heavier pressure; tolerate light feeding (adult is a desirable native butterfly) | E095 | Strong |
 
 ---
@@ -101,7 +101,7 @@ whitefly [E646](../../claim_table.html#claim-e646) — which is why it sits abov
 | **Phytophthora** | **Resistant rootstock (trifoliate Flying Dragon, §2) + drainage/irrigation management**; fungicides (fosetyl-Al/Aliette, K-phosphonate, mefenoxam) only for confirmed problems | A118 | Strong |
 | Brown rot / gummosis | **Skirt low branches** off the pot rim (remove splash zone); keep graft dry/above line (§5); deadwood removal | A022(§13), A099, A119(§5) | Strong |
 | **Greasy spot** | Improve air circulation; **water at soil early so leaves dry** (not overhead/late); remove fallen leaves; copper only if persistent | E076 | Strong |
-| Sooty mold | **Treat the honeydew pest + ants**; wash off mold | E089(§13), E646 | Strong |
+| Sooty mold | **Treat the honeydew pest + ants**; wash off mold | E089(§13), E058 | Strong |
 | Mal secco | **None needed in California — not present** [B048/§13] | B048 | Strong |
 
 **Mycorrhizae (AMF)** added at potting/refresh can **suppress Phytophthora** and improve root
@@ -114,7 +114,7 @@ activity [B030](../../claim_table.html#claim-b030) (§6) — a low-risk cultural
 The "environmental" half overlaps the weather sections: **heat/cold/sun protection is §15**
 (shade, whitewash, frost cloth, light pot), **wind/tip-over is §8**, **drainage/waterlogging is
 §3/§11**. The pest-relevant environmental levers that live here: **skirt-pruning + open canopy**
-(airflow cuts fungal disease and blocks ant/snail bridges) [A024](../../claim_table.html#claim-a024), [E667](../../claim_table.html#claim-e667), **mulch off the trunk**
+(airflow cuts fungal disease and blocks ant/snail bridges) [A024](../../claim_table.html#claim-a024), [E067](../../claim_table.html#claim-e067), **mulch off the trunk**
 (no crown rot) [C086](../../claim_table.html#claim-c086), and **early soil-level watering** (dry leaves → less greasy spot) [E076](../../claim_table.html#claim-e076).
 
 ---
@@ -123,12 +123,12 @@ The "environmental" half overlaps the weather sections: **heat/cold/sun protecti
 > - **HLB first:** scout **every flush** for ACP [E064](../../claim_table.html#claim-e064), **never move the pot** out of the LA
 >   quarantine area [D057](../../claim_table.html#claim-d057), buy **CCPP-certified** [E045](../../claim_table.html#claim-e045), and keep **CDFA 1-800-491-1899** handy
 >   [D058](../../claim_table.html#claim-d058). This is the only pest that ends the tree.
-> - **Control ants** with a sticky band on the pot/trunk + boric-acid bait [E647](../../claim_table.html#claim-e647), [E648](../../claim_table.html#claim-e648) — it does
->   more for scale/mealybug/whitefly than any spray [E646](../../claim_table.html#claim-e646).
+> - **Control ants** with a sticky band on the pot/trunk + boric-acid bait [E059](../../claim_table.html#claim-e059), [E060](../../claim_table.html#claim-e060) — it does
+>   more for scale/mealybug/whitefly than any spray [E058](../../claim_table.html#claim-e058).
 > - **Likely chronic here:** spider mites (hot wall) → **hose undersides**, never broad-spectrum
 >   [E082](../../claim_table.html#claim-e082); scale/mealybug (sheltered) → **oil timed to crawlers**, but **only on a cool morning
 >   <90°F** [E093](../../claim_table.html#claim-e093), [D111](../../claim_table.html#claim-d111); coastal **bud/silver mite** (mostly tolerate) [E074](../../claim_table.html#claim-e074); **snails** →
->   **copper band around the pot** [E666](../../claim_table.html#claim-e666).
+>   **copper band around the pot** [E066](../../claim_table.html#claim-e066).
 > - **Orangedog:** check the small canopy and **hand-pick** — a few larvae can strip it [E095](../../claim_table.html#claim-e095).
 > - **Greasy spot risk from the marine layer** → water at the soil **early** so leaves dry [E076](../../claim_table.html#claim-e076).
 > - **Phytophthora:** you've already prevented it with Flying Dragon + drainage (§2/§3); no
@@ -139,14 +139,14 @@ The "environmental" half overlaps the weather sections: **heat/cold/sun protecti
 
 ## Key takeaways
 - **Conserve natural enemies and control ants first** — ants breaking biocontrol is the
-  highest-leverage problem; baits + a pot/trunk sticky band fix it [E646](../../claim_table.html#claim-e646), [E647](../../claim_table.html#claim-e647), [E648](../../claim_table.html#claim-e648).
+  highest-leverage problem; baits + a pot/trunk sticky band fix it [E058](../../claim_table.html#claim-e058), [E059](../../claim_table.html#claim-e059), [E060](../../claim_table.html#claim-e060).
 - **ACP/HLB is the existential priority:** scout every flush, **never move the tree**, buy
   certified, **report HLB to CDFA 1-800-491-1899** [E064](../../claim_table.html#claim-e064), [D057](../../claim_table.html#claim-d057), [D058](../../claim_table.html#claim-d058).
 - **Avoid broad-spectrum insecticides** — they flare mites and break biological control [E082](../../claim_table.html#claim-e082), [E090](../../claim_table.html#claim-e090).
 - **Oils/soaps are the workhorse selective tools** — but **never above ~90°F** or on stressed
   plants; spray dawn/dusk [D110](../../claim_table.html#claim-d110), [D111](../../claim_table.html#claim-d111), [D112](../../claim_table.html#claim-d112).
 - **Likely balcony pests:** spider mites (hose), scale/mealybug (oil to crawlers), bud/silver
-  mite (tolerate), snails (copper band), orangedog (hand-pick) [E082](../../claim_table.html#claim-e082), [E093](../../claim_table.html#claim-e093), [E074](../../claim_table.html#claim-e074), [E666](../../claim_table.html#claim-e666), [E095](../../claim_table.html#claim-e095).
+  mite (tolerate), snails (copper band), orangedog (hand-pick) [E082](../../claim_table.html#claim-e082), [E093](../../claim_table.html#claim-e093), [E074](../../claim_table.html#claim-e074), [E066](../../claim_table.html#claim-e066), [E095](../../claim_table.html#claim-e095).
 - **Phytophthora is prevented, not sprayed** — rootstock + drainage [A118](../../claim_table.html#claim-a118); **greasy spot** →
   early soil-level watering [E076](../../claim_table.html#claim-e076).
 
@@ -157,7 +157,7 @@ The "environmental" half overlaps the weather sections: **heat/cold/sun protecti
 - **Don't apply oil/soap above ~90°F or on a drought-stressed tree** — foliage burn [D111](../../claim_table.html#claim-d111).
 - **Don't spray anything at bloom** — protect pollinators (§9) [D112](../../claim_table.html#claim-d112), [C043](../../claim_table.html#claim-c043).
 - **Don't routinely fungicide** for Phytophthora — prevent with rootstock + drainage [A118](../../claim_table.html#claim-a118).
-- **Don't ignore ants** — they sustain the honeydew-pest complex [E646](../../claim_table.html#claim-e646).
+- **Don't ignore ants** — they sustain the honeydew-pest complex [E058](../../claim_table.html#claim-e058).
 
 ## Evidence gaps
 - **Management is citrus-general UC IPM**, not container-Lisbon-trialed (though directly

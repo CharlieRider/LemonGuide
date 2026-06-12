@@ -25,7 +25,7 @@ not a calendar**, and **leach a deliberate fraction every time** so salt never c
 > ⚠️ **Conflict, reconciled.** Stated intervals range from "every 3 days" [A129](../../claim_table.html#claim-a129) to "weekly–
 > biweekly in summer" [D091](../../claim_table.html#claim-d091) to "**~daily in summer**" [A103](../../claim_table.html#claim-a103), [D097](../../claim_table.html#claim-d097), [B089](../../claim_table.html#claim-b089). These conflict only
 > because they assume different pots/climates. **Reconciliation:** generic calendars are
-> *starting points only* [E613](../../claim_table.html#claim-e613), [E025](../../claim_table.html#claim-e025); a shallow 14″ west pot in summer **often needs water
+> *starting points only* [E025](../../claim_table.html#claim-e025); a shallow 14″ west pot in summer **often needs water
 > daily** [A103](../../claim_table.html#claim-a103), [D097](../../claim_table.html#claim-d097), far more often than the in-ground 3–4-day interval [D097](../../claim_table.html#claim-d097) or the field
 > 7–28-day interval [B016](../../claim_table.html#claim-b016). **Schedule by depletion, not date.**
 
@@ -40,7 +40,7 @@ not a calendar**, and **leach a deliberate fraction every time** so salt never c
 > root rot, not thirst — check moisture at depth before adding water [D032](../../claim_table.html#claim-d032). **(2)** Midday wilt
 > on a hot afternoon is often **VPD/atmospheric** stomatal closure, not drought — more water
 > won't reopen stomata [B084](../../claim_table.html#claim-b084). The true water-stress sequence is **dull-green leaves curling/
-> cupping from the edges → crisp from the tip → defoliation** [B017](../../claim_table.html#claim-b017), [B171](../../claim_table.html#claim-b171).
+> cupping from the edges → crisp from the tip → defoliation** [B017](../../claim_table.html#claim-b017).
 
 ---
 
@@ -65,7 +65,7 @@ not a calendar**, and **leach a deliberate fraction every time** so salt never c
 | Practice | Specification | Claim | Strength |
 |---|---|---|---|
 | **Wet the whole root ball + some drainage**, then allow dry-down | Each cycle refills to container capacity with a small leaching surplus | B112, D096 | Strong / Moderate |
-| Moderate dry-down between waterings | Citrus **prefers** it (unlike constant-moisture plants) — never let it fully dry *or* stay saturated | E638, E050, B089 | Weak / Strong |
+| Moderate dry-down between waterings | Citrus **prefers** it (unlike constant-moisture plants) — never let it fully dry *or* stay saturated | E050, E050, B089 | Weak / Strong |
 | **Water early morning** | Cuts evaporative loss; gives roots water before peak afternoon demand — key on a west wall | B114 | Strong |
 | WHC reference | Media WHC **≥40% of volume** → roughly ~1 day between irrigations | A110 | Strong |
 | Mulch | **1–1.5 in** cuts evaporation **~33%** (home §6) | C087, C089 | Strong |
@@ -137,7 +137,7 @@ control** [B067](../../claim_table.html#claim-b067).
 ## Key takeaways
 - **Schedule by depletion (pot weight / depth check), not by calendar** [B023](../../claim_table.html#claim-b023), [B025](../../claim_table.html#claim-b025); a 14″ west
   pot often needs **daily** summer water [A103](../../claim_table.html#claim-a103), [D097](../../claim_table.html#claim-d097).
-- **Water early morning, deeply to a small drainage surplus, then dry-down** [B114](../../claim_table.html#claim-b114), [B112](../../claim_table.html#claim-b112), [E638](../../claim_table.html#claim-e638).
+- **Water early morning, deeply to a small drainage surplus, then dry-down** [B114](../../claim_table.html#claim-b114), [B112](../../claim_table.html#claim-b112), [E050](../../claim_table.html#claim-e050).
 - **Leach 15–30% every watering** (push to ~0.3 with hard water [B069](../../claim_table.html#claim-b069)) + a **monthly 2–3× deep
   flush** [B068](../../claim_table.html#claim-b068), [C127](../../claim_table.html#claim-c127) — leaching is the salt control [B067](../../claim_table.html#claim-b067).
 - **Never use a self-watering/SIP pot** — it traps salt [E048](../../claim_table.html#claim-e048).

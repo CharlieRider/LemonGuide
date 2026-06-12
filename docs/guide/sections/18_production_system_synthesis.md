@@ -30,7 +30,7 @@ forces the leaching discipline, which depends on the coarse mix that solves the 
 | Constraint | Design answer | Key numbers | Home |
 |---|---|---|---|
 | **Vigor / size** | Dwarfing **Flying Dragon** rootstock + **Yen Ben** (low-thorn, compact) strain + disciplined post-harvest pruning + 2–3-yr root-prune | FD ~4–8 ft / 66–75% reduction [B101](../../claim_table.html#claim-b101), [D127](../../claim_table.html#claim-d127) | §2, §1, §7, §5 |
-| **Root zone** | Coarse **pine/fir bark + pumice** mix, **~15–20% AFP**, no drainage layer, white/shaded/double pot, elevated ≥½″ | AFP 15–20% [E631](../../claim_table.html#claim-e631), [E119](../../claim_table.html#claim-e119); hypoxia floor 10–12% [B011](../../claim_table.html#claim-b011) | §3, §6 |
+| **Root zone** | Coarse **pine/fir bark + pumice** mix, **~15–20% AFP**, no drainage layer, white/shaded/double pot, elevated ≥½″ | AFP 15–20% [E043](../../claim_table.html#claim-e043), [E119](../../claim_table.html#claim-e119); hypoxia floor 10–12% [B011](../../claim_table.html#claim-b011) | §3, §6 |
 | **Water / salt** | Water by **pot weight** (≈daily summer), **15–30% leaching fraction** every time + **monthly deep flush**; pour-through EC <1.5 dS/m | LF 0.15–0.30 [B068](../../claim_table.html#claim-b068), [E120](../../claim_table.html#claim-e120); EC <1.5 [E002](../../claim_table.html#claim-e002) | §11, §14 |
 | **Nutrition** | **Weekly-weakly** acid-forming citrus feed + micros; pH ~6.0–6.5; **Fe-EDDHA** for high-pH chlorosis; gypsum for Ca | pH 6.0–6.5 [A040](../../claim_table.html#claim-a040); Fe-EDDHA >pH7 [A058](../../claim_table.html#claim-a058) | §10 |
 | **Climate** | **30–50% afternoon shade** in heat; **frost cloth + pre-water + move pot** at mid-20s °F; marine layer helps | Kill ~mid-high 20s °F [B049](../../claim_table.html#claim-b049); shade >95–100°F [B080](../../claim_table.html#claim-b080) | §15 |
@@ -70,7 +70,7 @@ Every cross-section tension and its adopted resolution for this pot:
   salt-sensitive [C124](../../claim_table.html#claim-c124) → on hard water you *must* leach 15–30% + monthly flush [B069](../../claim_table.html#claim-b069), [C127](../../claim_table.html#claim-c127) and
   monitor leachate EC [D134](../../claim_table.html#claim-d134) → which only works in a free-draining coarse mix [C129](../../claim_table.html#claim-c129).
 - **Shallow pot → perched water + root heat → coarse mix + cool pot:** the 14″ depth raises the
-  saturated zone and bakes the root zone [A114](../../claim_table.html#claim-a114), [A036](../../claim_table.html#claim-a036) → coarse bark/pumice at ~20% AFP [E631](../../claim_table.html#claim-e631) +
+  saturated zone and bakes the root zone [A114](../../claim_table.html#claim-a114), [A036](../../claim_table.html#claim-a036) → coarse bark/pumice at ~20% AFP [E043](../../claim_table.html#claim-e043) +
   light/shaded/double pot [A039](../../claim_table.html#claim-a039), [C083](../../claim_table.html#claim-c083) keeps the base above the 10–12% hypoxia floor [B011](../../claim_table.html#claim-b011) and
   below the >34–38°C root ceiling [A006](../../claim_table.html#claim-a006), [A038](../../claim_table.html#claim-a038).
 - **Dwarf root scavenges poorly + pot leaches fast → feed weekly-weakly:** [B104](../../claim_table.html#claim-b104), [B142](../../claim_table.html#claim-b142) → small

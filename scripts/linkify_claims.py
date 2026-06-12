@@ -11,7 +11,16 @@ Transforms:
 
 import os
 import re
+import sys
 from pathlib import Path
+
+# Windows consoles default to cp1252 and crash on the ✓/✗ status glyphs below;
+# match lint_report.py and force UTF-8 so the build is reproducible on Windows.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except (AttributeError, ValueError):
+    pass
 
 # Paths
 REPO_ROOT = Path(__file__).parent.parent

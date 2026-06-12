@@ -32,7 +32,7 @@ hard heading is the trap.**
 > **Core rule:** favor **thinning over heading**; over-heading produces a water-sprout thicket
 > and reduces the next crop [C079](../../claim_table.html#claim-c079), [A081](../../claim_table.html#claim-a081). **Light regular pruning beats infrequent heavy
 > pruning** [C080](../../claim_table.html#claim-c080), [A121](../../claim_table.html#claim-a121); citrus does not need the annual heavy pruning deciduous fruit does
-> [C329](../../claim_table.html#claim-c329). Many small cuts seal faster and safer than a few large ones [D043](../../claim_table.html#claim-d043).
+> [C026](../../claim_table.html#claim-c026). Many small cuts seal faster and safer than a few large ones [D043](../../claim_table.html#claim-d043).
 
 ---
 

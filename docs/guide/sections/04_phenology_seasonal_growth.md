@@ -14,7 +14,7 @@ layout: page
 > section stands alone.
 
 A container Lisbon does not have a single "season" — it is **everbearing**, carrying fruit
-at several developmental stages at once [E011](../../claim_table.html#claim-e011), [E599](../../claim_table.html#claim-e599), with a heavy main bloom plus secondary
+at several developmental stages at once [E011](../../claim_table.html#claim-e011), with a heavy main bloom plus secondary
 flushes. The practical consequence runs through the whole guide: **care cannot be switched
 off seasonally** [E011](../../claim_table.html#claim-e011). Below ground, roots and shoots flush in *alternation* — the tree
 partitions resources to tops **or** roots, not both at once [A009](../../claim_table.html#claim-a009) — so the calendar is
@@ -121,7 +121,7 @@ The actionable levers (steady moisture/N at bloom, pollinator access, girdling) 
   orchard tree [B149](../../claim_table.html#claim-b149).
 - **Pest pressure tracks flushing:** continually flushing lemons sustain heavier citrus
   leafminer and aphid pressure, and every new flush is the scouting target for Asian citrus
-  psyllid [E078](../../claim_table.html#claim-e078), [E069](../../claim_table.html#claim-e069), [E661](../../claim_table.html#claim-e661) (home: §16).
+  psyllid [E078](../../claim_table.html#claim-e078), [E069](../../claim_table.html#claim-e069), [E061](../../claim_table.html#claim-e061) (home: §16).
 
 ---
 
@@ -132,7 +132,7 @@ The actionable levers (steady moisture/N at bloom, pollinator access, girdling) 
 | **Late winter (Jan–Feb)** | Floral induction complete; main bloom beginning | Roots starting (~Feb) [A007](../../claim_table.html#claim-a007) | Frost risk on buds/flowers (most cold-sensitive) [C031](../../claim_table.html#claim-c031); repot window before flush [D065](../../claim_table.html#claim-d065) |
 | **Spring (Mar–May)** | Main bloom → fruit set; heavy spring flush | Root flush active | Post-bloom drop [B032](../../claim_table.html#claim-b032); CLM/ACP on flush [E078](../../claim_table.html#claim-e078) |
 | **Early summer (Jun)** | "June drop" thins crop [B032](../../claim_table.html#claim-b032) | Root growth continues | Don't mistake June drop for failure |
-| **Summer (Jul–Aug)** | Secondary flush; fruit cell-expansion (high demand) [E008](../../claim_table.html#claim-e008) | Root growth (to Nov) | Heat events scorch sun-side fruit/flush [B099](../../claim_table.html#claim-b099), [B280](../../claim_table.html#claim-b280); steady water |
+| **Summer (Jul–Aug)** | Secondary flush; fruit cell-expansion (high demand) [E008](../../claim_table.html#claim-e008) | Root growth (to Nov) | Heat events scorch sun-side fruit/flush [B099](../../claim_table.html#claim-b099), [B126](../../claim_table.html#claim-b126); steady water |
 | **Autumn (Sep–Nov)** | Autumn flush; fruit coloring | Root growth tapering | Protect late flush (next year's bloom wood) [A049](../../claim_table.html#claim-a049) |
 | **Winter (Dec)** | Winter main crop maturing/harvest | Roots ~stopping (<12°C) [A019](../../claim_table.html#claim-a019) | Cold induction 59–68°F sets next bloom [B041](../../claim_table.html#claim-b041); frost protection [C031](../../claim_table.html#claim-c031) |
 

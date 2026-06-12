@@ -8,7 +8,7 @@ layout: page
 > wetting agents, pH amendment rates) is **strong** container science [A031, A091, A092, A041,
 > A042]. The specific *recipes*, however, are **moderate-to-weak** nursery/consumer formulas
 > [C009](../../claim_table.html#claim-c009), [B088](../../claim_table.html#claim-b088), [D050](../../claim_table.html#claim-d050), [D107](../../claim_table.html#claim-d107) that converge on the same bark-dominant structure rather than one
-> validated mix. The one citrus-specific substrate trial is the 2026 biochar study [E696](../../claim_table.html#claim-e696).
+> validated mix. The one citrus-specific substrate trial is the 2026 biochar study [E108](../../claim_table.html#claim-e108).
 > This section is the **home** for the media recipe, amendments, mulch, and topdress; the
 > *targets and physics* those serve (AFP ~15–20%, no drainage layer, perched water) are §3;
 > pH/EC *targets* and the nutrition program are §10; salt flushing is §14.
@@ -28,11 +28,11 @@ permanent mineral aggregate for aeration.**
 | **Aged pine/fir bark** (backbone) | Coarse structure, drainage, slow decay | Stable months–years; "large-container" mixes 50–60% coarse bark | Fines (20–30%) cause waterlogging; cellulose barks (alder/poplar/oak) decay fast, immobilize N | A031, A069, A045, A108(media) | Strong |
 | **Peat** | Water/CEC | WHC 60–68%; pH **3.0–4.5** (needs liming) | Hydrophobic when dry — needs wetting agent | A091, A092, A067 | Strong |
 | **Coir** | Water/CEC, rewets easily | WHC 73–80%; pH **5.8–6.9** (no liming); far less hydrophobic than peat | Raw coir = Na/Cl/K-loaded, Ca/Mg-poor — must be buffered; keep **<50%** | A091, A092, A093, A094, A095 | Strong / Moderate |
-| **Pumice** (preferred aggregate) | Permanent aeration | pH 7.0–7.4; heavy, stays mixed, doesn't float/break down | Heavy (balcony weight) | D121, D564, D565 | Weak |
+| **Pumice** (preferred aggregate) | Permanent aeration | pH 7.0–7.4; heavy, stays mixed, doesn't float/break down | Heavy (balcony weight) | D121, D123, D124 | Weak |
 | **Perlite** | Aeration, lightweight | pH 6.5–7.5; excellent aeration | **Floats up and crushes** over time | D122, D563 | Weak |
 | **Calcined clay** (Turface) | Aeration + water reservoir | ~74% internal porosity; ~26% solids/39% water/35% air; durable, pH-neutral, modest CEC | Heavy | E055, E056, E057 | Moderate |
 | **Compost / worm castings** | Slow N, micros, microbes, **CEC** | Buffers nutrient swings in low-CEC mix | **Keep ≤10%** or it clogs aeration | D109, C106 | Weak / Moderate |
-| **Biochar** (optional) | Root growth, OM, CEC, moisture | **20% v/v optimum** raised citrus root length 25–39% | Raises pH (watch Fe/Mn/Zn lockout) | E696, E698, E110 | Strong (citrus) |
+| **Biochar** (optional) | Root growth, OM, CEC, moisture | **20% v/v optimum** raised citrus root length 25–39% | Raises pH (watch Fe/Mn/Zn lockout) | E108, E698, E110 | Strong (citrus) |
 
 ---
 
@@ -50,10 +50,10 @@ aggregate** — pick one and adjust:
 
 > **Practical synthesis (not a new number — a selection).** Use a **bark-dominant mix
 > (~50–60% coarse aged pine/fir bark)** [A069](../../claim_table.html#claim-a069) with **~20–30% buffered coir** [B138](../../claim_table.html#claim-b138), [A095](../../claim_table.html#claim-a095),
-> **~20% pumice** for permanent aeration [D564](../../claim_table.html#claim-d564), and **≤10% compost/castings** for CEC [D109](../../claim_table.html#claim-d109).
+> **~20% pumice** for permanent aeration [D123](../../claim_table.html#claim-d123), and **≤10% compost/castings** for CEC [D109](../../claim_table.html#claim-d109).
 > This matches the convergent recipes above while satisfying the §3 physics target (push AFP
 > toward ~15–20% in a shallow pot). Substitute **calcined clay or 20% biochar** for part of
-> the aggregate if balcony weight and pH are managed [E057](../../claim_table.html#claim-e057), [E696](../../claim_table.html#claim-e696).
+> the aggregate if balcony weight and pH are managed [E057](../../claim_table.html#claim-e057), [E108](../../claim_table.html#claim-e108).
 
 **Worked porosity reference (for sanity-checking a mix):** UC Mix 11%/62%/73%, peat+perlite
 20%/73%/93%, peat+vermiculite 13%/81%/94% (air/water/total) — all clear the ≥10% air / ≥40%
@@ -103,7 +103,7 @@ carry a wetting agent. (Rewetting tactics under heat: §11/§15.)
 | Mg + raise pH | Dolomitic lime | Mg while raising pH | D049 | Moderate |
 
 > ⚠️ **Why this matters for hard LA water:** Ca/Mg are easily leached from free-draining pots
-> and specifically depleted by unbuffered coir [D489](../../claim_table.html#claim-d489). But alkaline tap water pushes pH *up*,
+> and specifically depleted by unbuffered coir [D048](../../claim_table.html#claim-d048). But alkaline tap water pushes pH *up*,
 > risking Fe/Mn/Zn lockout — so prefer **gypsum (Ca/S, no pH rise)** over lime when pH is
 > already ≥6.0–6.5 [C029](../../claim_table.html#claim-c029). pH targets and the nutrition program are the home of §10.
 
@@ -149,9 +149,9 @@ colonization [B031](../../claim_table.html#claim-b031), so don't over-apply solu
 
 > ### 🪴 Worked example — 19″×14″ west-facing Brentwood / West LA balcony
 > - **Mix:** ~50–60% coarse aged pine/fir bark + ~20–30% **buffered** coir + ~20% pumice +
->   ≤10% compost [A069](../../claim_table.html#claim-a069), [B138](../../claim_table.html#claim-b138), [D564](../../claim_table.html#claim-d564), [D109](../../claim_table.html#claim-d109) — bark-dominant for multi-year drainage, coir for
+>   ≤10% compost [A069](../../claim_table.html#claim-a069), [B138](../../claim_table.html#claim-b138), [D123](../../claim_table.html#claim-d123), [D109](../../claim_table.html#claim-d109) — bark-dominant for multi-year drainage, coir for
 >   easy rewetting on a fast-drying wall [A093](../../claim_table.html#claim-a093), pumice (not perlite) so aeration doesn't
->   float away [D565](../../claim_table.html#claim-d565). Optionally swap part of the aggregate for **20% biochar** [E696](../../claim_table.html#claim-e696)
+>   float away [D124](../../claim_table.html#claim-d124). Optionally swap part of the aggregate for **20% biochar** [E108](../../claim_table.html#claim-e108)
 >   (watch the pH rise [E110](../../claim_table.html#claim-e110)).
 > - **Buffer the coir** (Ca/Mg soak, rinse) before planting [B136](../../claim_table.html#claim-b136), [B138](../../claim_table.html#claim-b138) — non-negotiable with
 >   hard LA water and a salt-sensitive Flying Dragon rootstock (§2).
@@ -168,7 +168,7 @@ colonization [B031](../../claim_table.html#claim-b031), so don't over-apply solu
 
 ## Key takeaways
 - Use a **bark-dominant mix** (~50–60% coarse aged pine/fir bark) with a **minority** of
-  buffered coir, **pumice** aggregate, and **≤10% compost** [A069](../../claim_table.html#claim-a069), [D109](../../claim_table.html#claim-d109), [D564](../../claim_table.html#claim-d564) — all four
+  buffered coir, **pumice** aggregate, and **≤10% compost** [A069](../../claim_table.html#claim-a069), [D109](../../claim_table.html#claim-d109), [D123](../../claim_table.html#claim-d123) — all four
   published recipes converge on this [C009](../../claim_table.html#claim-c009), [B088](../../claim_table.html#claim-b088), [D050](../../claim_table.html#claim-d050), [D107](../../claim_table.html#claim-d107).
 - **Buffer coir** (Ca/Mg soak) or it dumps Na/K and locks out Ca/Mg [B135](../../claim_table.html#claim-b135), [B136](../../claim_table.html#claim-b136); keep coir
   **<50%** [A095](../../claim_table.html#claim-a095).
@@ -193,7 +193,7 @@ colonization [B031](../../claim_table.html#claim-b031), so don't over-apply solu
 - **No validated container-Lisbon recipe** — the four formulas are nursery/consumer
   convergence, not a measured comparison [C009](../../claim_table.html#claim-c009), [B088](../../claim_table.html#claim-b088), [D050](../../claim_table.html#claim-d050), [D107](../../claim_table.html#claim-d107).
 - **Biochar data is citrus-general greenhouse** (rootstock seedlings), not a Lisbon
-  fruiting-pot trial, and it raises pH [E696](../../claim_table.html#claim-e696), [E110](../../claim_table.html#claim-e110).
+  fruiting-pot trial, and it raises pH [E108](../../claim_table.html#claim-e108), [E110](../../claim_table.html#claim-e110).
 - **Calcined clay specs are manufacturer (label-grade)** [E055–E057]; durability/weight not
   independently verified for this use.
 - **Topdress/refresh cadence is weak consumer sourcing** [E053](../../claim_table.html#claim-e053), [E054](../../claim_table.html#claim-e054); the "~2 yr" and

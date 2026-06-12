@@ -88,7 +88,7 @@ another reason for trifoliate Flying Dragon, §2), greasy spot in humid coastal 
 | **Orangedog caterpillar** | Large larva camouflaged as **bird dropping** | **Acute** — a few can defoliate a small canopy fast | E094 | Strong |
 
 > **Honeydew → sooty mold → ants is one linked complex:** ants farm and protect the
-> honeydew-producers and break biological control [E646/§16]. If sooty mold appears, the
+> honeydew-producers and break biological control [E058/§16]. If sooty mold appears, the
 > diagnostic chain is **find the honeydew pest, and look for ants** — management in §16.
 
 ---

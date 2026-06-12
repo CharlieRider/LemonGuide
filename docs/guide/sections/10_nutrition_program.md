@@ -75,7 +75,7 @@ The answer is **steady, complete, low-dose feeding ("weekly weakly") with micron
 |---|---|---|---|---|
 | **Controlled-release (CRF)** | **≥1×/yr** (e.g., ~March & August); release **speeds up in heat** | Baseline steady feed | E606, D089, A089 | Strong |
 | Dry soluble granular | 3–6×/yr | Cheapest; uneven placement risk | E099 | Strong |
-| **Liquid / "weekly weakly"** | **≥10×/yr** — small dilute doses to avoid salt spikes | Responsiveness; matches fast-leaching pot | E099, E639, E627 | Strong / Moderate |
+| **Liquid / "weekly weakly"** | **≥10×/yr** — small dilute doses to avoid salt spikes | Responsiveness; matches fast-leaching pot | E099, E639, E039 | Strong / Moderate |
 | Topdressed CRF | Surface, **don't incorporate** (leaches less N) | Placement | A090 | Strong |
 
 > **Why "weekly weakly":** splitting feed **reduces the salt spike and leaching loss** of a
@@ -117,14 +117,14 @@ roughens rind, delays coloring, hurts quality, and pushes cold-tender growth [D0
 
 | Nutrient | Target / proportion | Notes | Claim | Strength |
 |---|---|---|---|---|
-| **K (as K₂O)** | **≈ equal to the N rate**; **+25%** if leaf K runs low | Drives **fruit size**; deficiency = small thin-rind fruit, splitting; leaf K >0.7%, optimum **1.2–1.7%** | D147, E098, D543, D586 | Strong |
+| **K (as K₂O)** | **≈ equal to the N rate**; **+25%** if leaf K runs low | Drives **fruit size**; deficiency = small thin-rind fruit, splitting; leaf K >0.7%, optimum **1.2–1.7%** | D147, E098, D143, D145 | Strong |
 | **P (as P₂O₅)** | Non-bearing **≈50–75% of N** | High soluble P suppresses mycorrhizae [B031](../../claim_table.html#claim-b031) | E098 | Strong |
 | **Ca** | Highest of N/Ca/Mg by mass; supply during **bloom/fruit set (~Apr–Aug)** | Cell-wall/rind strength; **gypsum or calcium nitrate**; easily leached + coir-depleted | E107, D090, D046, D049 | Strong / Moderate |
 | **Mg** | **≈20% of N** if soil tests low | Chlorophyll core; deficiency = interveinal chlorosis on **older** leaves; **Epsom (no pH change)** or dolomite (raises pH) | E098, D047, D049 | Strong / Moderate |
 
 > **Diagnostic shortcut:** **old-leaf** interveinal chlorosis = **Mg**; **new-leaf** chlorosis =
 > Fe/Mn/Zn (pH lockout) [D047](../../claim_table.html#claim-d047), [A057](../../claim_table.html#claim-a057). Don't over-maximize K — very high K makes large, thick,
-> coarse-peeled fruit; dial to target via leaf testing, not maximum [D543](../../claim_table.html#claim-d543), [D586](../../claim_table.html#claim-d586).
+> coarse-peeled fruit; dial to target via leaf testing, not maximum [D143](../../claim_table.html#claim-d143), [D145](../../claim_table.html#claim-d145).
 
 ---
 
@@ -149,7 +149,7 @@ Containers under alkaline water routinely run short of **Fe, Zn, Mn** [E040](../
 
 Foliar tips: spray in **cool/humid hours** (morning marine layer is ideal) on 2/3-to-fully
 expanded young leaves, **solution pH 6–7** (urea above pH 7 risks ammonia burn); effect is
-**temporary (one flush) and cannot replace soil N-P-K** [E593](../../claim_table.html#claim-e593), [B110](../../claim_table.html#claim-b110), [E592](../../claim_table.html#claim-e592). **AMF** improve
+**temporary (one flush) and cannot replace soil N-P-K** [E005](../../claim_table.html#claim-e005), [B110](../../claim_table.html#claim-b110), [E004](../../claim_table.html#claim-e004). **AMF** improve
 uptake of the lockout-prone P/Zn/Cu [B028](../../claim_table.html#claim-b028) (§6).
 
 ---
@@ -158,7 +158,7 @@ uptake of the lockout-prone P/Zn/Cu [B028](../../claim_table.html#claim-b028) (�
 
 | Window | Action | Claim | Strength |
 |---|---|---|---|
-| **Feb–Oct** | Active feeding — monthly granular **or weekly-weakly liquid**; CRF ~March & August | D089, E627 | Strong |
+| **Feb–Oct** | Active feeding — monthly granular **or weekly-weakly liquid**; CRF ~March & August | D089, E039 | Strong |
 | Three N splits | (1) Feb→flowering, (2) flowering→mid-June, (3) mid-June→mid-Oct | E100, D016 | Strong |
 | Micronutrients | Every **4–6 weeks Feb–Oct**; Ca during bloom/fruit set (~Apr–Aug) | D090 | Strong |
 | **Winter** | **Minimal/no feed** (modest N only if supporting bloom) — avoid late-season N | D089, D013, B046 | Strong |
@@ -174,7 +174,7 @@ uptake of the lockout-prone P/Zn/Cu [B028](../../claim_table.html#claim-b028) (�
 |---|---|---|---|
 | N | **2.5–2.7%** (study range 1.9–2.3%) | D141, E105 | Strong |
 | P | 0.12–0.16% | D141 | Strong |
-| K | **1.2–1.7%** (deficient <0.7%) | D141, D586 | Strong |
+| K | **1.2–1.7%** (deficient <0.7%) | D141, D145 | Strong |
 | Ca | 3.0–4.9% (study 2.1–2.8%) | D141, E105 | Strong |
 | Mg | 0.30–0.49% (study 0.20–0.33%) | D141, E105 | Strong |
 
@@ -200,7 +200,7 @@ roots barely grow that cool anyway (§3/§4).
 >   lockout [A057](../../claim_table.html#claim-a057), [B009](../../claim_table.html#claim-b009). Use an **acid-forming citrus fertilizer with micros** [E040](../../claim_table.html#claim-e040), keep
 >   **pH ~6.0–6.5** (sulfur if it climbs [A041](../../claim_table.html#claim-a041)), and **default to Fe-EDDHA** for any iron
 >   chlorosis because pour-through pH may sit >7 [A058](../../claim_table.html#claim-a058).
-> - **Feed weekly-weakly Feb–Oct**, ≥10 light liquid doses [E099](../../claim_table.html#claim-e099), [E627](../../claim_table.html#claim-e627), not heavy infrequent
+> - **Feed weekly-weakly Feb–Oct**, ≥10 light liquid doses [E099](../../claim_table.html#claim-e099), [E039](../../claim_table.html#claim-e039), not heavy infrequent
 >   feeds — protects the salt-sensitive Flying Dragon root and the leaching pot [B142](../../claim_table.html#claim-b142).
 > - **Keep pour-through EC < 1.5 dS/m** [E002](../../claim_table.html#claim-e002), [D138](../../claim_table.html#claim-d138); pair feeding with the §14 leaching routine
 >   (15–30% leaching fraction + monthly flush) given hard water.
@@ -208,7 +208,7 @@ roots barely grow that cool anyway (§3/§4).
 >   young per-tree figure (0.15–0.30 lb N/yr [E096](../../claim_table.html#claim-e096)) ≈ ~2–4 g N/week over the season — **an
 >   assumption-based illustration, not a dose** (§10.4); verify with leaf testing [D139](../../claim_table.html#claim-d139).
 > - **Ca via gypsum** (no pH rise [C029](../../claim_table.html#claim-c029)); **Mg via Epsom** if old leaves yellow [D047](../../claim_table.html#claim-d047), [D049](../../claim_table.html#claim-d049).
-> - **Spray foliar Zn/Mn in the cool marine-layer morning** [B110](../../claim_table.html#claim-b110); keep solution pH 6–7 [E593](../../claim_table.html#claim-e593).
+> - **Spray foliar Zn/Mn in the cool marine-layer morning** [B110](../../claim_table.html#claim-b110); keep solution pH 6–7 [E005](../../claim_table.html#claim-e005).
 > - **Ease off feeding into winter** [D089](../../claim_table.html#claim-d089); skip heavy late-season N (cold-tender growth +
 >   poor rind) [D013](../../claim_table.html#claim-d013), [D016](../../claim_table.html#claim-d016).
 
@@ -234,7 +234,7 @@ roots barely grow that cool anyway (§3/§4).
 - **Don't push heavy late-season/winter N** — poor rind/color, cold-tender growth [D016](../../claim_table.html#claim-d016), [D013](../../claim_table.html#claim-d013).
 - **Don't use Fe-EDTA under alkaline water** — it degrades; use Fe-EDDHA [A056](../../claim_table.html#claim-a056), [A058](../../claim_table.html#claim-a058).
 - **Don't let pour-through EC exceed ~2.0 dS/m** [D134](../../claim_table.html#claim-d134); leach instead (§14).
-- **Don't rely on foliar feeding for N-P-K** — it's a temporary micro fix only [E592](../../claim_table.html#claim-e592).
+- **Don't rely on foliar feeding for N-P-K** — it's a temporary micro fix only [E004](../../claim_table.html#claim-e004).
 - **Don't over-apply soluble P** if relying on mycorrhizae [B031](../../claim_table.html#claim-b031).
 
 ## Evidence gaps

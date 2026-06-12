@@ -94,7 +94,7 @@ maintenance rhythm below.
 ## 17.5 Carrying Capacity (don't over-crop a small canopy)
 
 A pruned/small canopy supports fewer fruit — **adequate leaf area per fruit is the
-carrying-capacity constraint** [C039](../../claim_table.html#claim-c039), [C342](../../claim_table.html#claim-c342), and **canopy:root balance is fundamental to
+carrying-capacity constraint** [C039](../../claim_table.html#claim-c039), and **canopy:root balance is fundamental to
 container success** [C024](../../claim_table.html#claim-c024). Over-pruning shrinks both the crop and the engine that feeds it
 [C025](../../claim_table.html#claim-c025). Match expectations (a few dozen fruit/yr, §12) to the canopy you keep.
 
