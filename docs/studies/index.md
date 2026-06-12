@@ -169,3 +169,4 @@ The source study notes are below.
 - [Lisbon Lemon Suitability Synthesis for a Brentwood West-Facing Balcony Container](studies/2026_lisbon-brentwood-balcony-suitability-synthesis.md)
 - [Girdling & Cultural Practices to Improve Citrus Fruit Set and Yield](studies/2026_mdpi_girdling-citrus-fruit-set-yield.md)
 - [_index.md](studies/_index.md)
+- [index.md](studies/index.md)

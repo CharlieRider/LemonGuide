@@ -1,0 +1,26 @@
+# GitHub Pages (Jekyll) configuration for the Lisbon Lemon Guide.
+#
+# Pages source: branch `master`, folder `/docs`.
+#
+# The jekyll-relative-links plugin (allow-listed on GitHub Pages) rewrites
+# in-repo `[text](file.md)` links to the generated `.html` URLs, so the
+# guide/study cross-links and the docs/index.md quick links resolve on the
+# live site without any manual path rewriting. The HTML anchors emitted by
+# linkify_claims.py (`<a id="claim-a018">`) then make `#claim-a018` jump
+# targets work on the rendered claim table.
+
+title: Lisbon Lemon Guide
+description: Evidence-backed container care guide for Lisbon lemons.
+theme: minima
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+# Keep generated/source noise out of the built site.
+exclude:
+  - "*.py"
+  - "*.json"

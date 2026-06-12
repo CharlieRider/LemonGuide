@@ -38,12 +38,16 @@
 - [x] 12 Harvest Maturity and Fruit Quality → `sections\12_harvest_maturity_quality.md` (2026-06-11)
 - [x] 13 Disease, Pest, and Physiological Disorder Diagnostics → `sections\13_disease_pest_disorder_diagnostics.md` (2026-06-11)
 - [x] 14 Soil, Media, Water, and Leachate Testing → `sections\14_testing_soil_water_leachate.md` (2026-06-11)
-- [ ] 15 Heat, Wind, Cold, and Rain Protection
-- [ ] 16 Environmental and Pest Protection
-- [ ] 17 Failure Modes and Corrective Actions
-- [ ] 18 Container Lisbon Lemon Production System
-- [ ] 19 Seasonal Irrigation Schedule + Annual Operating Calendar
+- [x] 15 Heat, Wind, Cold, and Rain Protection → `sections\15_heat_wind_cold_rain_protection.md` (2026-06-11)
+- [x] 16 Environmental and Pest Protection → `sections\16_environmental_pest_protection.md` (2026-06-11)
+- [x] 17 Failure Modes and Corrective Actions → `sections\17_failure_modes_corrective_actions.md` (2026-06-11)
+- [x] 18 Container Lisbon Lemon Production System → `sections\18_production_system_synthesis.md` (2026-06-11)
+- [x] 19 Seasonal Irrigation Schedule + Annual Operating Calendar → `sections\19_seasonal_schedule_calendar.md` (2026-06-11)
 
-## Phase C — Assemble
-- [ ] `lisbon_lemon_guide.md` assembled + reconciled + Evidence Gaps appendix
-- [ ] copied to `..\wiki\tree_fruits\lisbon_lemon.md`
+**Phase B COMPLETE — all 19 sections drafted (2026-06-11). Next: Phase C assembly.**
+
+## Phase C — Assemble ✅ COMPLETE (2026-06-11)
+- [x] `lisbon_lemon_guide.md` assembled (front matter + linked TOC + all 19 sections + consolidated Evidence Gaps/Reconciliations appendix) — 3,376 lines / ~34k words
+- [x] copied to `..\wiki\tree_fruits\lisbon_lemon.md` (folder created)
+
+**🎉 BUILD COMPLETE — guide finished and published to wiki. Loop stopped.**

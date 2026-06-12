@@ -49,7 +49,9 @@ def linkify_claims_in_text(text):
             return match.group(0)  # Return unchanged if not valid
     
     # Match: [XXXXX] or [XXXXX, XXXXX, ...]
-    pattern = r'\[([A-Z]\d{3}(?:\s*,\s*[A-Z]\d{3})*)\]'
+    # The trailing (?!\() makes this idempotent: a claim already followed by a
+    # link target — [A018](#claim-a018) — is skipped instead of re-wrapped.
+    pattern = r'\[([A-Z]\d{3}(?:\s*,\s*[A-Z]\d{3})*)\](?!\()'
     return re.sub(pattern, replace_claims, text)
 
 def linkify_guide_sections():
@@ -126,12 +128,16 @@ def linkify_claim_table():
                 
                 # Check if it's a valid claim ID
                 if re.match(r'^[A-Z]\d{3}', claim_id):
-                    # Add HTML anchor before the row
                     anchor = f'<a id="claim-{claim_id.lower()}"></a>'
-                    modified_lines.append(anchor)
-                    anchors_added += 1
-                    
-                    # Process source file cell (index 4)
+                    # Idempotent: only add the anchor if the previous emitted
+                    # line isn't already this anchor (avoids accumulating
+                    # duplicates on repeated runs).
+                    if not (modified_lines and modified_lines[-1].strip() == anchor):
+                        modified_lines.append(anchor)
+                        anchors_added += 1
+
+                    # Process source file cell (index 4). Skip if already a
+                    # markdown link from a prior run.
                     source_file = cells[4]
                     if source_file and source_file in available_studies:
                         # Convert to markdown link

@@ -1,1 +1,4 @@
-PyYAML
+# Core publish pipeline (scripts/build.py) uses only the Python stdlib.
+# Dependencies below are for the optional tooling in scripts/tooling/.
+PyYAML          # soil_normalizer.py, analyze_studies.py
+requests        # download_missing_pdfs.py (PDF fetch sweep)
